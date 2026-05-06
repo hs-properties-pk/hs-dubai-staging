@@ -1,0 +1,571 @@
+/** Sobha City Abu Dhabi — Al Bahiya, Abu Dhabi */
+export const sobhaCityAbuDhabiData = {
+  slug: "sobha-city-abu-dhabi",
+  name: "Sobha City Abu Dhabi",
+
+  hero: {
+    imageSrc: "/communities/sobha-city/7.webp",
+    imageAlt:
+      "Sobha City Abu Dhabi master-planned community with green spaces and residences in Al Bahiya, Abu Dhabi",
+    badgeText: "Sobha Realty",
+    title: "Sobha City Abu Dhabi",
+    subtitle:
+      "Craftsman's Capital — Master-Planned Villas, Garden Homes and Apartments in Al Bahiya, Abu Dhabi",
+    description:
+      "Discover Sobha Realty's defining arrival in Abu Dhabi — a master-planned community where 50,000+ trees, a 20km wellness loop, and 60% open green spaces meet the precision of five decades of in-house craftsmanship. Experience luxury living redefined near Yas Island.",
+  },
+
+  overview: {
+    title: "Sobha City Abu Dhabi",
+    paragraphs: [
+      "Sobha City Abu Dhabi is a newly launched master-planned community by Sobha Realty, strategically located in Al Bahiya — one of Abu Dhabi's fastest-growing residential corridors, 14 minutes from Zayed International Airport and 15 minutes from Yas Island. This is Sobha Realty's first master community in Abu Dhabi and a long-term commitment to the capital, conceived at city scale, guided by precision, and built for the future.",
+      "The community is shaped by water, landscape, and movement — featuring canals, open spaces, and green corridors that define daily life. With over 50,000 trees, a 20km wellness loop, approximately 60% open and green spaces, a 2km waterfront promenade, and a Par-3 executive golf course, Sobha City is far more than a residential development. It is a fully integrated urban ecosystem where living, wellness, and community are designed as one coherent plan.",
+      "Buyers at Sobha City Abu Dhabi can choose between Estate Villas, Garden Villas, and Apartments — each built entirely through Sobha's backward integration model that keeps every stage of design, manufacturing, and construction in-house. Residences range from 1-bedroom apartments starting at AED 1.31 million to 6-bedroom Estate Villas from AED 13.40 million, offering one of the widest price ranges of any off-plan community currently available in Abu Dhabi.",
+    ],
+    stats: [
+      { value: "Al Bahiya Location", label: "Prime", description: "14 min from Airport" },
+      { value: "Developer", label: "Sobha Realty", description: "5 Decades of Craft" },
+      { value: "Sobha Master Community", label: "Abu Dhabi's First", description: "50,000+ Trees" },
+      { value: "3 Property Categories", label: "Estate Villas, Garden Villas, Apts", description: "From AED 1.31M" },
+    ],
+    quickFacts: [
+      "Sobha Realty's first ever master-planned community in Abu Dhabi",
+      "50,000+ trees and approximately 60% open and green spaces",
+      "20km wellness loop and 2km waterfront promenade",
+      "Par-3 executive golf course within the masterplan",
+      "Estate Villas, Garden Villas and Apartments from AED 1.31M",
+      "14 minutes from Zayed International Airport",
+      "Handover: December 2029",
+    ],
+    visionTitle: "Craftsman's Capital — A Legacy Five Decades in the Making",
+    visionParagraphs: [
+      "Sobha was founded by Mr. PNC Menon, a craftsman by origin and a developer by conviction. His journey began with interiors and evolved into a philosophy of total control, precision, and accountability — a discipline that continues to define Sobha today across every market it builds in, from the United Kingdom and United States to India, Italy, Australia, and now the UAE capital.",
+      "Abu Dhabi is a capital shaped by foresight and permanence. Its approach to growth, culture, and space mirrors Sobha's belief in long-term value. The alignment between developer and city was, in Sobha's own words, inevitable.",
+      "Sobha City Abu Dhabi marks the moment that five decades of craftsmanship finds its capital — a master community conceived to last, built to the same uncompromising standard as every Sobha development before it, and designed specifically for those who understand that quality, once built correctly, endures.",
+    ],
+    visionImage: "/communities/sobha-city/8.webp",
+    visionImageAlt: "Green master-planned living and craftsmanship at Sobha City Abu Dhabi",
+  },
+
+  developer: {
+    title: "Sobha Realty Developer Profile",
+    paragraphs: [
+      "Sobha Realty is defined by an uncompromising command over quality. For over five decades, Sobha has delivered real estate through discipline, precision, and total ownership of every outcome — a legacy built across multiple continents and recognised globally as the benchmark for luxury development.",
+      "What sets Sobha entirely apart is their backward integration model. While most developers rely on third-party contractors for construction, Sobha keeps every stage entirely in-house — from architectural design and structural engineering to joinery, metalwork, glazing, and interior finishes. This means zero compromise on quality, no reliance on external timelines, and the kind of finish consistency that repeat Sobha buyers have come to expect across communities like Sobha Hartland, Sobha Siniya Island, and Sobha Elwood.",
+      "Sobha City Abu Dhabi is a long-term commitment by Sobha Realty to the UAE capital — conceived at city scale, guided by precision, and built for the future. For buyers considering off-plan property at Sobha City, five decades of delivery credibility provide the confidence that few developers in the region can match.",
+    ],
+  },
+
+  lifestyle: {
+    title: "Sobha City Abu Dhabi — Community Lifestyle",
+    subtitle:
+      "Living in Sobha City Abu Dhabi is built around nature, movement, and the kind of daily calm that only true low-density masterplanning can deliver.",
+    features: [
+      {
+        icon: "FaRoad",
+        title: "20km Wellness Loop",
+        description:
+          "A continuous jogging, cycling, and wellness trail woven through the entire community masterplan",
+      },
+      {
+        icon: "FaWater",
+        title: "2km Waterfront Promenade",
+        description:
+          "Tree-lined waterfront promenade with shaded seating, social spaces, and outdoor dining along the water's edge",
+      },
+      {
+        icon: "FaGolfBall",
+        title: "Par-3 Golf Course",
+        description:
+          "Executive Par-3 golf course within the masterplan — a rare amenity in any Abu Dhabi residential community",
+      },
+      {
+        icon: "FaLeaf",
+        title: "60% Open Green Spaces",
+        description:
+          "Approximately 60% of the total masterplan dedicated to open space, green corridors, parks, and nature",
+      },
+    ],
+    detailsTitle: "Everyday Living: Residents, Lifestyle and Services",
+    detailsParagraphs: [
+      "The green network at Sobha City Abu Dhabi is the centrepiece of the community and defines how residents experience daily life. Paths open into shade. Movement feels natural. Stillness feels intentional. With 50,000+ trees framing every walkway and canal edges defining the landscape, nature here is not decorative — it is foundational to the entire masterplan.",
+      "Residents enjoy forest trails, family parks, children's play areas, shaded seating gardens, open-air fitness zones, jogging and cycling tracks, multi-sport courts, an amphitheatre, pavilion and social decks, outdoor dining zones, and tai-chi and wellness lawns — all thoughtfully woven throughout the community so that wellbeing simply happens as part of daily routine.",
+      "Daily life at Sobha City is made effortless by design. Parking, arrival courts, and concierge services are integrated into the masterplan. Retail, promenades, and community gathering spaces are woven into everyday movement. This is not just a residential development — it is a fully integrated urban ecosystem where living, working, wellness, and community form one coherent plan.",
+    ],
+    targetResidents: "Families, professionals, HNW investors and international buyers",
+    developmentPhase: "Off-plan | Handover December 2029",
+    investmentType: "Freehold, off-plan opportunities available",
+  },
+
+  location: {
+    title: "Location and Connectivity — Al Bahiya, Abu Dhabi",
+    subtitle:
+      "Located in Al Bahiya, Abu Dhabi, Sobha City is positioned at the centre of the capital's cultural, leisure, and global gateways — with seamless access to key destinations within minutes.",
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3612.847!2d54.6411649!3d24.4952227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e4f0017b3e251%3A0x1e272b3968233052!2sSOBHA%20CITY!5e0!3m2!1sen!2sae!4v1700000000000!5m2!1sen!2sae",
+    keyConnections: [
+      "Zayed International Airport — 14 minutes (14km)",
+      "Ferrari World Abu Dhabi — 15 minutes (13km)",
+      "Yas Waterworld — 15 minutes (15km)",
+      "SeaWorld Abu Dhabi — 16 minutes (12km)",
+      "Yas Mall — 13 minutes (11km)",
+      "Etihad Arena — 15 minutes (14km)",
+      "Yas Bay Waterfront — 18 minutes (15km)",
+      "Upcoming Disney Abu Dhabi — 15 minutes (10km)",
+      "Louvre Abu Dhabi — 25 minutes (35km)",
+    ],
+    features: [
+      {
+        icon: "FaPlane",
+        title: "Zayed International Airport",
+        description: "14 mins (14km)",
+      },
+      {
+        icon: "FaStar",
+        title: "Ferrari World Abu Dhabi",
+        description: "15 mins (13km)",
+      },
+      {
+        icon: "FaShoppingBag",
+        title: "Yas Mall",
+        description: "13 mins (11km)",
+      },
+      {
+        icon: "FaChild",
+        title: "Disney Abu Dhabi (Upcoming)",
+        description: "15 mins (10km)",
+      },
+    ],
+  },
+
+  keyFeatures: null,
+
+  propertyTypes: {
+    title: "Residential Options in Sobha City Abu Dhabi",
+    subtitle:
+      "Estate Villas, Garden Villas, and Apartments — each built to the same Sobha in-house standard. From 566 sq ft 1-bedroom apartments to 6-bedroom Estate Villas on plots over 6,490 sq ft, one of the widest off-plan ranges in Abu Dhabi today.",
+    badgeText: "Sobha City Abu Dhabi",
+    types: [
+      {
+        name: "1-Bedroom Apartments",
+        tag: "Ideal for professionals and investors",
+        perks: [
+          "Saleable area from 566.27 sq ft",
+          "Starting price: AED 1.31 million",
+          "AED 2,313 per sq ft — premium Sobha finish quality",
+          "Open-plan layouts designed for light and adaptability",
+          "Strong rental yield potential in Abu Dhabi's fastest-growing corridor",
+        ],
+        image: "/communities/sobha-city/10.webp",
+      },
+      {
+        name: "2-Bedroom Apartments",
+        tag: "Perfect for couples and small families",
+        perks: [
+          "Saleable area from 1,012.88 sq ft",
+          "Starting price: AED 2.40 million",
+          "AED 2,369 per sq ft",
+          "Private balconies with community and green corridor views",
+          "Direct access to 20km wellness loop and community amenities",
+        ],
+        image: "/communities/sobha-city/11.webp",
+      },
+      {
+        name: "Garden Villas — 3 Bedroom + Majlis",
+        tag: "Luxury family living with private outdoor garden",
+        perks: [
+          "Starting plot size: 1,987.98 sq ft",
+          "Saleable area from 2,577.85 sq ft",
+          "Starting price: AED 4.96 million",
+          "AED 1,924 per sq ft",
+          "Private garden, landscaped outdoor spaces, and dedicated Majlis",
+        ],
+        image: "/communities/sobha-city/6.webp",
+      },
+      {
+        name: "Garden Villas — 4 Bedroom + Majlis",
+        tag: "Spacious family villa with generous plot and garden",
+        perks: [
+          "Starting plot size: 3,387.60 sq ft",
+          "Saleable area from 4,194.48 sq ft",
+          "Starting price: AED 8.07 million",
+          "AED 1,924 per sq ft",
+          "Private pool option, landscaped garden, and dedicated Majlis",
+        ],
+        image: "/communities/sobha-city/7.webp",
+      },
+      {
+        name: "Estate Villas — 4 Bedroom",
+        tag: "Standalone luxury estate living with private pool",
+        perks: [
+          "Starting plot size: 4,506.10 sq ft",
+          "Saleable area from 4,309.44 sq ft",
+          "Starting price: AED 9.05 million",
+          "AED 2,100 per sq ft — Sobha's premium estate product",
+          "Covered parking, swimming pool, private backyard, panoramic green vistas",
+        ],
+        image: "/communities/sobha-city/8.webp",
+      },
+      {
+        name: "Estate Villas — 5 Bedroom",
+        tag: "Expansive estate villa with lift and private pool",
+        perks: [
+          "Starting plot size: 5,489.49 sq ft",
+          "Saleable area from 5,317.90 sq ft",
+          "Starting price: AED 11.16 million",
+          "AED 2,099 per sq ft",
+          "Lift, swimming pool, private backyard, entrance foyer court, covered parking",
+        ],
+        image: "/communities/sobha-city/9.webp",
+      },
+      {
+        name: "Estate Villas — 6 Bedroom",
+        tag: "The pinnacle of Sobha's Abu Dhabi residential offering",
+        perks: [
+          "Starting plot size: 6,490.75 sq ft",
+          "Saleable area from 6,383.11 sq ft",
+          "Starting price: AED 13.40 million",
+          "AED 2,099 per sq ft",
+          "Lift, swimming pool, private backyard, panoramic green vistas, entrance foyer court",
+        ],
+        image: "/communities/sobha-city/1.webp",
+      },
+    ],
+  },
+
+  masterPlan: {
+    title: "Master Development at Sobha City Abu Dhabi",
+    subtitle:
+      "The Sobha City Abu Dhabi master development represents a fully integrated urban ecosystem — a community where living, wellness, connectivity, and nature are not separate considerations but one coherent, deliberate plan.",
+    items: [
+      {
+        icon: "FaTree",
+        title: "50,000+ Trees",
+        description:
+          "A living green network of over 50,000 trees defines paths, frames homes, and gives the entire community its natural identity",
+      },
+      {
+        icon: "FaRoad",
+        title: "20km Wellness Loop",
+        description:
+          "A continuous 20km jogging, cycling, and wellness trail woven through forest corridors and open green spaces throughout the masterplan",
+      },
+      {
+        icon: "FaWater",
+        title: "2km Waterfront Promenade",
+        description:
+          "Canal-facing promenade with tree-lined walkways, shaded seating, outdoor dining, and social gathering spaces along the water's edge",
+      },
+      {
+        icon: "FaGolfBall",
+        title: "Par-3 Golf Course",
+        description:
+          "Executive Par-3 golf course — an integrated leisure amenity rarely found within a residential masterplan in Abu Dhabi",
+      },
+      {
+        icon: "FaUsers",
+        title: "Active and Social Spaces",
+        description:
+          "Amphitheatre, multi-sport courts, open-air gym, climbing and adventure park, pavilions, sculptural gardens, and outdoor dining zones",
+      },
+      {
+        icon: "FaLeaf",
+        title: "Aligned with Abu Dhabi Vision 2030",
+        description:
+          "Landscape-led cooling, walkability, reduced car dependency, and long-term environmental balance built into the masterplan from the ground up",
+      },
+    ],
+  },
+
+  subCommunities: {
+    title: "Sub-Communities and Property Types",
+    subtitle:
+      "Within the wider Sobha City Abu Dhabi masterplan, three distinct residential categories serve different buyer profiles and lifestyle needs. Each is built to the same Sobha in-house standard, with distinct layouts, plot sizes, and price points designed for a diverse, long-term community.",
+    items: [
+      {
+        name: "Estate Villas",
+        description:
+          "Estate Villas are Sobha City's flagship standalone residences — offering 4, 5, and 6-bedroom configurations on generous plots from 4,506 sq ft. Each villa includes a private swimming pool, covered parking, private backyard, panoramic green vistas, and entrance foyer court. Starting from AED 9.05 million. Handover: December 2029.",
+        image: "/communities/sobha-city/2.webp",
+      },
+      {
+        name: "Garden Villas",
+        description:
+          "Garden Villas offer a refined garden-living experience with 3 and 4-bedroom configurations plus a dedicated Majlis. Plots start from 1,987 sq ft with saleable areas from 2,577 sq ft. Designed for families seeking privacy, outdoor space, and connection to the community's green corridors. Starting from AED 4.96 million.",
+        image: "/communities/sobha-city/9.webp",
+      },
+      {
+        name: "Apartments",
+        description:
+          "Sobha City Apartments offer 1 and 2-bedroom residences designed for efficiency, light, and adaptability. Saleable areas from 566 sq ft for 1-bedroom units and from 1,012 sq ft for 2-bedroom units. Ideal for professionals and investors seeking entry into Abu Dhabi's fastest-growing corridor. Starting from AED 1.31 million.",
+        image: "/communities/sobha-city/7.webp",
+      },
+    ],
+  },
+
+  clusters: null,
+
+  amenities: {
+    title: "Amenities Within the Community",
+    subtitle:
+      "Sobha City Abu Dhabi is planned with a comprehensive set of amenities designed around daily life — not spectacle. Every facility within the community reflects Sobha's belief that essentials should be thoughtfully curated, not afterthoughts.",
+    items: [
+      {
+        title: "Green Spaces and Forest Trails",
+        description:
+          "60% open and green spaces with 50,000+ trees, forest cycling trails, family parks, shaded seating gardens, and children's play areas",
+        image: "/communities/sobha-city/3.webp",
+      },
+      {
+        title: "Fitness and Wellness",
+        description:
+          "20km wellness loop, open-air gym, jogging and cycling tracks, meditation zones, tai-chi lawns, and yoga spaces throughout the community",
+        image: "/communities/sobha-city/1.webp",
+      },
+      {
+        title: "Golf Course",
+        description:
+          "Par-3 executive golf course — an integrated, resort-style leisure amenity within the residential masterplan",
+        image: "/communities/sobha-city/2.webp",
+      },
+      {
+        title: "Sport and Recreation",
+        description:
+          "Multi-sport courts, climbing and adventure park, indoor games zone, amphitheatre, and outdoor gathering spaces",
+        image: "/communities/sobha-city/4.webp",
+      },
+      {
+        title: "Retail and Community",
+        description:
+          "Retail outlets, outdoor dining zones, pavilions, social decks, community lounges, and mosque integrated throughout the masterplan",
+        image: "/communities/sobha-city/11.webp",
+      },
+      {
+        title: "Waterfront Promenade",
+        description:
+          "2km waterfront promenade with tree-lined walkways, shaded seating, canal views, and outdoor dining along the water's edge",
+        image: "/communities/sobha-city/6.webp",
+      },
+    ],
+  },
+
+  whyChoose: {
+    title: "Why Choose Sobha City Abu Dhabi",
+    subtitle:
+      "Sobha City Abu Dhabi stands out among Abu Dhabi's off-plan communities for several key reasons:",
+    points: [
+      "Abu Dhabi's first and only Sobha Realty master-planned community",
+      "Five decades of Sobha craftsmanship — backward integration, zero third-party compromise",
+      "50,000+ trees and 60% open green space — the most nature-rich off-plan community in Abu Dhabi",
+      "20km wellness loop, 2km waterfront promenade, and a Par-3 golf course within the masterplan",
+      "Three property categories — Apartments from AED 1.31M, Garden Villas from AED 4.96M, Estate Villas from AED 9.05M",
+      "Prime Al Bahiya location — 14 minutes from Zayed International Airport, 15 minutes from Yas Island",
+      "100% freehold ownership available to all nationalities",
+      "UAE Golden Visa eligibility for qualifying investment values",
+      "Fully aligned with Abu Dhabi Vision 2030 — landscape-led, walkable, sustainable masterplan",
+      "Handover December 2029 — clear timeline with structured payment milestones",
+    ],
+  },
+
+  investmentBenefits: {
+    title: "Investment Potential and Off-Plan Structure",
+    subtitle:
+      "From an investment point of view, Sobha City Abu Dhabi combines several strong fundamentals.",
+    benefits: [
+      {
+        icon: "FaTrophy",
+        title: "Sobha Brand Premium",
+        description:
+          "Abu Dhabi's first Sobha master community — backed by five decades of delivery credibility and a track record that consistently produces strong resale values across every market Sobha builds in",
+      },
+      {
+        icon: "FaChartLine",
+        title: "Yas Island Corridor Appreciation",
+        description:
+          "Al Bahiya's position adjacent to Yas Island places Sobha City in one of Abu Dhabi's fastest-developing zones — supported by continuous tourism, entertainment, and infrastructure investment",
+      },
+      {
+        icon: "FaHandshake",
+        title: "Off-Plan Opportunities",
+        description:
+          "Structured payment plan with handover December 2029 — Phase 1 launch pricing offers maximum capital growth runway before full market release at higher values",
+      },
+      {
+        icon: "FaBuilding",
+        title: "High Rental Demand",
+        description:
+          "14 minutes from the airport, 15 minutes from Yas Island, and adjacent to Abu Dhabi's major business hubs — all driving consistent expat rental demand in Al Bahiya",
+      },
+      {
+        icon: "FaHistory",
+        title: "Heritage Developer",
+        description:
+          "Sobha Realty — five decades, multiple continents, one standard of quality — the benchmark for off-plan confidence in the UAE",
+      },
+      {
+        icon: "FaKey",
+        title: "Freehold Property",
+        description:
+          "100% freehold ownership available to all nationalities — qualifying investments eligible for UAE 10-year Golden Visa residency",
+      },
+    ],
+  },
+
+  gallery: {
+    title: "Sobha City Abu Dhabi Gallery",
+    description:
+      "Master-planned green living, wellness, and craftsmanship — Sobha City Abu Dhabi, Al Bahiya",
+    images: [
+      { src: "/communities/sobha-city/1.webp", alt: "yoga image" },
+      { src: "/communities/sobha-city/2.webp", alt: "golf image" },
+      { src: "/communities/sobha-city/3.webp", alt: "valley image" },
+      { src: "/communities/sobha-city/4.webp", alt: "playground image" },
+      { src: "/communities/sobha-city/5.webp", alt: "main hall image" },
+      { src: "/communities/sobha-city/6.webp", alt: "villa image" },
+      { src: "/communities/sobha-city/7.webp", alt: "full arial image" },
+      { src: "/communities/sobha-city/8.webp", alt: "sobha city full image" },
+      { src: "/communities/sobha-city/9.webp", alt: "garden image" },
+      { src: "/communities/sobha-city/10.webp", alt: "dining image" },
+      { src: "/communities/sobha-city/11.webp", alt: "gallery image" },
+      { src: "/communities/sobha-city/12.webp", alt: "terrace image" },
+      { src: "/communities/sobha-city/13.webp", alt: "cluster image" },
+    ],
+  },
+
+  faq: {
+    heading: "Frequently Asked Questions",
+    description: "Everything you need to know about Sobha City Abu Dhabi",
+    faqs: [
+      {
+        q: "Where is Sobha City Abu Dhabi located?",
+        a: "Sobha City Abu Dhabi is located in Al Bahiya, Abu Dhabi — 14 minutes from Zayed International Airport, 15 minutes from Ferrari World and Yas Island, and 13 minutes from Yas Mall. The community has direct access to the E10 and E12 highways, connecting residents to Abu Dhabi city centre, Saadiyat Island, and the wider UAE.",
+      },
+      {
+        q: "What types of properties are available in Sobha City Abu Dhabi?",
+        a: "Sobha City Abu Dhabi offers three residential categories: Apartments (1 and 2-bedroom, from 566 sq ft), Garden Villas (3 and 4-bedroom with Majlis, from 2,577 sq ft saleable area), and Estate Villas (4, 5, and 6-bedroom, from 4,309 sq ft saleable area). Prices range from AED 1.31 million for a 1-bedroom apartment to AED 13.40 million for a 6-bedroom Estate Villa.",
+      },
+      {
+        q: "Is Sobha City Abu Dhabi freehold?",
+        a: "Yes. Sobha City Abu Dhabi is a 100% freehold development, fully open to buyers of all nationalities — including international investors and expatriates outside the UAE.",
+      },
+      {
+        q: "Is Sobha City Abu Dhabi ready or still under construction?",
+        a: "Sobha City Abu Dhabi is an off-plan development. Handover is scheduled for December 2029. All purchases are registered under ADREC's regulated framework with mandatory escrow management for full investor protection.",
+      },
+      {
+        q: "Who is Sobha City Abu Dhabi suitable for?",
+        a: "Sobha City Abu Dhabi is suitable for families seeking premium, nature-rich, low-density gated living in Abu Dhabi; professionals seeking high-quality residences 14 minutes from the airport; and local and international investors seeking strong capital growth and rental yield potential in one of the UAE capital's fastest-growing corridors, backed by five decades of Sobha delivery credibility.",
+      },
+    ],
+  },
+
+  cta: {
+    sectionLabel: "YOUR SOBHA ABU DHABI OPPORTUNITY",
+    title: "Ready to Buy in Sobha City Abu Dhabi?",
+    description:
+      "Join the community where craftsmanship finds its capital. Explore off-plan Estate Villas, Garden Villas, and Apartments at Sobha City Abu Dhabi — and secure your place in one of the UAE capital's most significant new addresses before handover in December 2029.",
+    ctaText: "Request exclusive property details",
+    footnote:
+      "Three property categories from AED 1.31M • 100% freehold for all nationalities • Handover December 2029",
+  },
+
+  footer: {
+    brandName: "SOBHA CITY ABU DHABI",
+    tagline:
+      "Have questions? We're here to help. Our RERA-certified experts guide you from shortlisting to handover — free consultation, no hidden fees, 30-minute response during business hours.",
+  },
+
+  form: {
+    title: "Request Free Consultation",
+    subtitle: "Fill in your details — we'll respond within 30 minutes",
+    sourceLabel: "Sobha City Abu Dhabi Landing Page",
+  },
+
+  meta: {
+    title:
+      "Sobha City Abu Dhabi | Off-Plan Villas Townhouses Apartments Al Bahiya Near Yas Island",
+    description:
+      "Buy off-plan property at Sobha City Abu Dhabi — a luxury master-planned community in Al Bahiya, minutes from Yas Island. Garden Villas, Estate Villas and Apartments from AED 1.31M. Flexible payment plan. Handover December 2029.",
+    keywords:
+      "Sobha City Abu Dhabi, Sobha Realty, Al Bahiya Abu Dhabi, off-plan Abu Dhabi, Yas Island, Garden Villas, Estate Villas, apartments Al Bahiya, AED 1.31M, December 2029 handover, freehold Abu Dhabi, ADREC escrow, Golden Visa UAE, master community Abu Dhabi, wellness loop, waterfront promenade",
+    url: "https://hsproperty.ae/communities/sobha-city-abu-dhabi",
+    ogImage: "/communities/sobha-city/5.webp",
+    schemas: {
+      place: {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        name: "Sobha City Abu Dhabi, Al Bahiya",
+        url: "https://hsproperty.ae/communities/sobha-city-abu-dhabi",
+        description:
+          "Sobha City Abu Dhabi — master-planned off-plan community by Sobha Realty in Al Bahiya, Abu Dhabi.",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Al Bahiya",
+          addressRegion: "Abu Dhabi",
+          addressCountry: "AE",
+        },
+        containedInPlace: {
+          "@type": "City",
+          name: "Abu Dhabi",
+          containedInPlace: {
+            "@type": "Country",
+            name: "United Arab Emirates",
+          },
+        },
+        potentialAction: {
+          "@type": "ViewAction",
+          name: "View Sobha City Abu Dhabi",
+          target: "https://hsproperty.ae/communities/sobha-city-abu-dhabi",
+        },
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://hsproperty.ae" },
+            {
+              "@type": "ListItem",
+              position: 2,
+              name: "Communities",
+              item: "https://hsproperty.ae/communities",
+            },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: "Sobha City Abu Dhabi",
+              item: "https://hsproperty.ae/communities/sobha-city-abu-dhabi",
+            },
+          ],
+        },
+      },
+      product: {
+        "@context": "https://schema.org",
+        "@type": "RealEstateListing",
+        name: "Sobha City Abu Dhabi",
+        description:
+          "Master-planned community by Sobha Realty in Al Bahiya — Estate Villas, Garden Villas, and Apartments from AED 1.31M. Handover December 2029.",
+        url: "https://hsproperty.ae/communities/sobha-city-abu-dhabi",
+        image: [
+          "https://hsproperty.ae/communities/sobha-city/5.webp",
+          "https://hsproperty.ae/communities/sobha-city/8.webp",
+        ],
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Al Bahiya",
+          addressRegion: "Abu Dhabi",
+          addressCountry: "AE",
+        },
+        developer: {
+          "@type": "Organization",
+          name: "Sobha Realty",
+        },
+        telephone: "+971-4-330-7333",
+      },
+    },
+  },
+
+  thankyou: {
+    communityName: "Sobha City Abu Dhabi",
+    description:
+      "Your enquiry about Sobha City Abu Dhabi has been submitted. A property specialist will contact you within one business day with availability, floor plans, and payment options.",
+    returnLabel: "Return to Sobha City Abu Dhabi Page",
+  },
+};

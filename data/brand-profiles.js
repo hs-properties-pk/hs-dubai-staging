@@ -1,0 +1,937 @@
+/**
+ * Optional rich content for `/brands/[brandSlug]`, keyed by `slugifyBrandName(brandName)`.
+ * Omitted fields fall back to `lib/brandProfile.js` (listing counts, generic copy).
+ * Stats in `about.stats` are sourced from public reporting / official websites where noted;
+ * verify before use in investor-facing material.
+ * Entries with “TBD” are placeholders for a full SEO pass.
+ * `logo` — public path to the developer mark (`public/…`); used on /brands cards and can be
+ * read via `getBrandLogoSrc` / `resolveBrandPageProfile`. Omit or set null if no file yet.
+ */
+export const BRAND_PROFILES = {
+  "emaar-properties": {
+    logo: "/brands-logos/emaar.png",
+    headline:
+      "Emaar Properties Dubai — Off-Plan Projects, New Launches & Master Communities 2026",
+    tagline:
+      "Downtown Dubai · Dubai Hills Estate · Dubai Creek Harbour · Grand Polo Club · The Oasis & More",
+    heroBody: `Emaar Properties (DFM: EMAAR) is Dubai’s top listed real estate developer, founded in 1997 by Mohamed Ali Alabbar. Known for Burj Khalifa, The Dubai Mall, and 125,600+ delivered homes, its 2025 results hit records with AED 80.4 billion in sales and AED 49.6 billion in revenue. Communities span all lifestyles, from Emaar Beachfront and Dubai Hills Estate to Arabian Ranches and The Valley.
+
+Browse active Emaar off-plan projects, filter by community, type, and price, and connect with our RERA-certified team for a free shortlist via phone, WhatsApp, or office.`,
+    heroCta: {
+      label: "View all properties",
+      href: "/properties/off-plan?brand=Emaar%20Properties",
+    },
+    about: {
+      aboutSubtitle: "ABOUT EMAAR PROPERTIES",
+      aboutTitle:
+        "Dubai's Most Iconic Developer — 28 Years, 125,600+ Homes, Record AED 80.4B Sales in 2025",
+      description: [
+        "Founded on 16 June 1997 under a Dubai government directive, Emaar introduced freehold property ownership to international buyers in 2002 — transforming Dubai into a global investment destination. Decades later, the group spans residential master communities, Address and Vida hotels, and The Dubai Mall. FY 2025 results were the highest ever: AED 80.4 billion in property sales (+16% YoY), AED 49.6 billion in total revenue, AED 25.7 billion net profit before tax, and a revenue backlog of AED 155 billion. Emaar's land bank stands at approximately 618 million sq ft. (Source: Emaar FY 2025 Results, February 2026)",
+        "As an authorised Emaar agent, H&S Real Estate gives you direct access to new launches, priority phase allocations, and RERA-protected escrow transactions across every Emaar master community — from The Valley townhouses to The Oasis ultra-luxury villas. Our RERA-certified advisors guide you from shortlist to signed SPA.",
+      ],
+      cta: { label: "Speak to a RERA advisor", action: "expert" },
+      stats: [
+        { value: "AED 80.4B", label: "Property sales (FY 2025)" },
+        { value: "AED 49.6B", label: "Revenue (FY 2025)" },
+        { value: "125,600+", label: "Homes delivered" },
+        { value: "AED 155B", label: "Revenue backlog (Dec 25)" },
+        { value: "618M sq ft", label: "Land bank" },
+        { value: "48", label: "New launches (2025)" },
+      ],
+    },
+    leadBanner: {
+      title: "Get Priority Access to New Emaar Properties Launches in 2026",
+      subtitle:
+        "Tell us your budget, community, and timeline — our RERA advisors will shortlist the right Emaar project for you.",
+      brochureUrl: null,
+      showWhatsapp: true,
+    },
+    midCta: {
+      title: "Looking for a specific Emaar Properties project in 2026?",
+      primaryLabel: "Ask an expert",
+      secondaryLabel: "View all off-plan",
+      secondaryHref: "/properties/off-plan?brand=Emaar%20Properties",
+    },
+    paymentSection: {
+      title: "Payment Plans — Emaar Properties",
+      body: "Emaar payment plans are confirmed per project at reservation. All off-plan payments are held in RERA-registered escrow accounts under UAE law. Plans typically range from 60/40 construction-linked to post-handover arrangements — our team confirms the exact structure before you commit.",
+      plans: [
+        {
+          title: "60/40",
+          body: "60% in construction milestones, 40% on handover — the standard Emaar structure for most apartment projects.",
+        },
+        {
+          title: "80/20",
+          body: "80% during construction, 20% on key collection — common across Emaar South and The Valley projects.",
+        },
+        {
+          title: "10/70/20",
+          body: "10% booking, 70% during build, 20% on handover — typical in Dubai Hills Estate and Dubai Creek Harbour.",
+        },
+        {
+          title: "Post-Handover",
+          body: "Selected launches allow 1–3 years post-handover balance — subject to project and phase availability.",
+        },
+      ],
+      downloadLabel: "Download payment plan",
+      downloadUrl: null,
+    },
+    faq: [
+      {
+        question: "Who founded Emaar Properties and when?",
+        answer: "Emaar Properties was founded on 16 June 1997 by Mohamed Ali Alabbar under a directive from the Dubai government. It was listed on the Dubai Financial Market (DFM: EMAAR) in 2000 and introduced freehold property sales to international buyers in 2002. Today its CEO is Amit Jain, and Alabbar remains Chairman."
+      },
+      {
+        question: "How many homes has Emaar delivered?",
+        answer: "Emaar Properties has delivered over 125,600 residential units since 2002 across its UAE master communities and global markets. In 2025 alone, Emaar launched 48 new projects across its UAE master plans."
+      },
+      {
+        question: "What were Emaar's financial results for 2025?",
+        answer: "FY 2025 was Emaar's strongest year on record. AED 80.4 billion in total property sales (+16% YoY), AED 49.6 billion in group revenue (+32%), AED 25.7 billion in net profit before tax, and a revenue backlog of AED 155 billion (+39% YoY). UAE property sales for Jan-Feb 2026 reached AED 17.2 billion, up 118% YoY."
+      },
+      {
+        question: "What are Emaar's biggest master communities in Dubai?",
+        answer: "Major communities include Downtown Dubai, Dubai Marina, Dubai Hills Estate, Dubai Creek Harbour, Arabian Ranches I-III, Emaar Beachfront, Emaar South, The Valley, Rashid Yachts & Marina, The Oasis, Grand Polo Club & Resort, and The Heights Country Club."
+      },
+      {
+        question: "Can foreigners buy Emaar properties in Dubai?",
+        answer: "Yes. All Emaar master communities are in designated freehold zones. Buyers of any nationality have full ownership rights including selling, leasing, mortgaging, and inheritance."
+      },
+      {
+        question: "How do I buy an Emaar off-plan property in Dubai?",
+        answer: "The process includes choosing a unit, paying a 5-10% booking fee, signing the Sales & Purchase Agreement (SPA), registering with Dubai Land Department (4% fee), paying construction milestones, and taking handover upon completion. Payments are held in RERA-registered escrow accounts."
+      },
+      {
+        question: "Does buying an Emaar property qualify me for a UAE visa?",
+        answer: "Yes. Properties worth AED 750,000+ may qualify for a 2-year investor visa. Properties worth AED 2 million+ (fully paid) may qualify for a 10-year UAE Golden Visa."
+      },
+      {
+        question: "What payment plans does Emaar offer in 2026?",
+        answer: "Common plans include 60/40, 80/20, and 10/70/20 structures, along with some post-handover plans. Exact terms are confirmed in the SPA and all payments are escrow protected."
+      },
+      {
+        question: "What fees do I pay when buying an Emaar property?",
+        answer: "Standard costs include a 4% Dubai Land Department fee and AED 2,000-4,000 registration fee. No additional buyer-side agency fee applies when buying new off-plan through H&S Real Estate."
+      },
+      {
+        question: "Are my off-plan payments protected?",
+        answer: "Yes. All payments are held in RERA-registered escrow accounts and released only as construction milestones are completed, protecting buyers from developer default."
+      },
+      {
+        question: "Which Emaar community is best for families in 2026?",
+        answer: "Top family communities include Dubai Hills Estate, Arabian Ranches III, The Valley, and Emaar South. Dubai Hills Estate is considered the most comprehensively serviced."
+      },
+      {
+        question: "What is the cheapest Emaar off-plan property in 2026?",
+        answer: "Emaar South offers the lowest entry point with apartments starting from around AED 850K-1.06M. The Valley townhouses start from AED 1.6M, and Dubai Creek Harbour apartments from AED 1.3M."
+      },
+      {
+        question: "What is Grand Polo Club & Resort by Emaar?",
+        answer: "It is a master community launched in April 2025 with a development value of AED 41 billion. It features polo fields, stables, and over 6,600 residences. Townhouses start from AED 3.7M and villas from AED 5.67M."
+      },
+      {
+        question: "What is The Heights Country Club by Emaar?",
+        answer: "The Heights Country Club is a wellness-focused master community worth AED 55 billion, spanning 81 million sq ft. It emphasizes green spaces, wellness, and active living, with phased launches through 2025-2026."
+      },
+      {
+        question: "What rental yields can I expect from Emaar properties in 2026?",
+        answer: "Approximate yields are. Emaar South 7-9%, Emaar Beachfront 6-8%, The Greens & Views 6-7.5%, Dubai Hills Estate 5.5-7%, Downtown Dubai 5-7%, Arabian Ranches villas 4-5.5%."
+      },
+      {
+        question: "What is the 2026 UAE property market outlook for Emaar buyers?",
+        answer: "The market shows strong momentum with high sales growth, a large revenue backlog, and stable credit ratings. Population growth and international demand continue to support long-term positive fundamentals."
+      },
+      {
+        question: "How does H&S Real Estate help me buy an Emaar property?",
+        answer: "H&S Real Estate provides free property shortlisting, early access to launches, full transaction support, and mortgage coordination. All advisors are RERA-certified."
+      },
+      {
+        question: "Do I pay extra fees when buying through H&S?",
+        answer: "No. For new off-plan purchases, you pay the same price as buying directly. H&S commission is paid by the developer. Standard DLD and registration fees still apply."
+      }
+    ]
+  },
+
+  "nakheel-properties": {
+    logo: "/brands-logos/Nakheel.png",
+    headline: "Iconic master communities & coastlines",
+    tagline: "Palm Jumeirah, Dubai Islands & JVC-scale neighbourhoods",
+    heroBody:
+      "Nakheel is a world-leading master developer in Dubai, behind landmark waterfront and island communities. Browse Nakheel off-plan and resale-linked inventory on hsproperty.ae, then use our community pages for the full district story — schools, access, and handover context.",
+    about: {
+      aboutSubtitle: "ABOUT NAKHEEL PROPERTIES",
+      aboutTitle: "Shaping Dubai’s waterfront and family districts",
+      description: [
+        "A core developer within Dubai Holding, Nakheel has delivered some of the world’s most recognisable master plans — from Palm Jumeirah to large-scale family districts such as Jumeirah Village Circle. Its remit runs from residential towers to retail, leisure, and community management at scale.",
+        "H&S groups all Nakheel-tagged off-plan on one screen so you can compare handover, price bands, and layout before you shortlist. Key figures on the right are as published for brand positioning (Nakheel corporate website); we pair them with live inventory data from our own listings feed.",
+      ],
+      cta: { label: "Talk to a Nakheel expert", action: "expert" },
+      stats: [
+        { value: "700,000+", label: "Residents in Nakheel communities (stated)" },
+        { value: "15,000", label: "Hectares of master developments" },
+        { value: "410 km+", label: "Coastline added, Dubai" },
+        { value: "300 km+", label: "Waterfront developed" },
+        { value: "Dubai", label: "Dubai Holding master developer" },
+        { value: "Palm", label: "Iconic Island — global landmark" },
+      ],
+    },
+    leadBanner: {
+      title: "Nakheel launches & payment plans",
+      subtitle:
+        "Palm, islands, and mainland districts — we’ll match budget to project.",
+      showWhatsapp: true,
+    },
+  },
+
+  "damac-properties": {
+    logo: "/brands-logos/damac.png",
+    headline: "Luxury communities & high-rise living",
+    tagline: "Dubai Marina, Business Bay, Akoya + international pipeline",
+    heroBody:
+      "DAMAC Properties is one of the region’s best-known luxury developers — high-rises, branded residences, and golf and waterfront communities. Use our brand hub to find every DAMAC off-plan line we list, with filters for type, price, and bedrooms, before you line up a tailored payment and reservation path.",
+    about: {
+      aboutSubtitle: "ABOUT DAMAC PROPERTIES",
+      aboutTitle: "International luxury with a large UAE footprint",
+      description: [
+        "Listed on DFM, DAMAC has built a long track record of high-spec towers and community-scale projects, often with hospitality and F&B brand tie-ins. Its portfolio includes prominent Dubai corridors — Marina, Business Bay, and DAMAC Hills — and an expanding development pipeline in other global cities.",
+        "On hsproperty.ae you get the same RERA-escrow discipline as the wider market, plus a broker team that can compare DAMAC’s live payment structures across towers. Cumulative scale figures (right) are widely cited in the group’s public financial and corporate briefings; confirm current delivery against your project.",
+      ],
+      cta: { label: "Speak to a DAMAC specialist", action: "expert" },
+      stats: [
+        { value: "48,000+", label: "Housing units delivered (group, cumulative)" },
+        { value: "100+ Mn", label: "sq. ft. developed (group, typical cite)" },
+        { value: "50,000+", label: "Units in pipeline (typical public cite)" },
+        { value: "DFM", label: "Listed on Dubai Financial Market" },
+        { value: "Luxury", label: "Positioning — high-spec finishes" },
+        { value: "Global", label: "Dubai, UK, KSA, and more" },
+      ],
+    },
+    leadBanner: {
+      title: "DAMAC inventory & new towers",
+      subtitle: "We shortlist the right tower, view, and payment plan.",
+      showWhatsapp: true,
+    },
+  },
+
+  meraas: {
+    logo: "/brands-logos/meras.png",
+    headline: "Lifestyle & entertainment-led districts",
+    tagline: "City Walk, La Mer, Bluewaters & Jumeirah living",
+    heroBody:
+      "Meraas creates some of Dubai’s most walkable mixed-use enclaves — design-led low-rise, retail, and F&B in districts where living and leisure blend. We aggregate Meraas-tagged off-plan here so you can see release waves, handover, and price in one pass.",
+    about: {
+      aboutSubtitle: "ABOUT MERAAS",
+      aboutTitle: "Curated city neighbourhoods & waterfront living",
+      description: [
+        "From City Walk to Bluewaters and La Mer, Meraas is known for human-scale streets, public realm, and operator-led retail. Residential inventory often releases in small clusters within larger master ideas — understanding district nuance matters as much as the floor plan.",
+        "H&S helps you read each release against the wider district story: schools, access roads, and handover phasing, not just the brochure render. The stats column mixes iconic place-making references with a reminder to verify launch-specific availability on the live list below.",
+      ],
+      cta: { label: "Ask a Meraas specialist", action: "expert" },
+      stats: [
+        { value: "Mixed-use", label: "Retail + F&B + residential" },
+        { value: "Bluewaters", label: "Ain Dubai & island living" },
+        { value: "City Walk", label: "Urban low-rise, walkable" },
+        { value: "La Mer", label: "Beachfront + dining cluster" },
+        { value: "Dubai", label: "Dubai government–linked group" },
+        { value: "Lifestyle", label: "Curated public realm" },
+      ],
+    },
+  },
+
+  "meydan-sobha": {
+    logo: "/brands-logos/meydan-sobha.png",
+    headline: "Meydan & Sobha — design-led family homes",
+    tagline: "Greens, townhouses, and villa clusters",
+    heroBody:
+      "The Meydan × Sobha partnership marries a prime Dubai address with tight construction QC and long internal roadmaps in districts such as District One and other Sobha-curated phases. We list Meydan Sobha off-plan cards here with the same payment and filter tooling as the main off-plan index.",
+    about: {
+      aboutSubtitle: "ABOUT MEYDAN & SOBHA",
+      aboutTitle: "Master developer land + in-house build quality",
+      description: [
+        "Meydan brings the location and long-term master plan; Sobha’s vertically integrated build model and finishing standards are a key buyer draw across the GCC. Together they appeal to end-users who prioritise handover quality and long-term community management.",
+        "Filter below by type and price, then have our team read the current payment schedule and escrow path with you. Where your shortlist sits across Meydan, we can align with district-level data from our /communities coverage.",
+      ],
+      cta: { label: "Talk to a Meydan / Sobha expert", action: "expert" },
+      stats: [
+        { value: "Sobha", label: "In-house contracting model" },
+        { value: "Meydan", label: "Prime racetrack & district address" },
+        { value: "Qatar + UAE", label: "Regional developer footprint" },
+        { value: "RERA", label: "Standard escrow for off-plan" },
+        { value: "Family", label: "Townhouse & villa focus areas" },
+        { value: "H&S", label: "DLD-registered advisory" },
+      ],
+    },
+  },
+
+  "danube-properties": {
+    logo: "/brands-logos/danube.png",
+    headline: "Value homes & investor-friendly products",
+    tagline: "Wider Dubai coverage with clear payment design",
+    heroBody:
+      "Danube is known for high-volume, accessible pricing and product lines that work for first-time investors and end-users. Our hub pulls every Danube off-plan line we list so you can compare handover, post-handover options, and layout without jumping between ad hoc listings.",
+    about: {
+      aboutSubtitle: "ABOUT DANUBE PROPERTIES",
+      aboutTitle: "Product-led, scale-driven residential delivery",
+      description: [
+        "Danube’s business model is built on recurring launches and a broad Dubai footprint, often with flexible and milestone-led payment design aimed at a wide buyer base. That makes like-for-like comparison important — the same “brand” can span different sub-markets and finish tiers.",
+        "Use the filters below, then have us line up a side-by-side with similar handover and service-charge expectations so you are not optimising on price alone. Escrow and DLD process match the same regulatory frame as for any RERA-registered off-plan project.",
+      ],
+      cta: { label: "Ask a Danube specialist", action: "expert" },
+      stats: [
+        { value: "Value", label: "Accessible price positioning" },
+        { value: "Dubai", label: "Multi-corridor product mix" },
+        { value: "RERA", label: "Regulated off-plan path" },
+        { value: "Milestones", label: "Construction-linked tranches" },
+        { value: "Investor", label: "Popular with end-users" },
+        { value: "H&S", label: "Shortlisting & handover help" },
+      ],
+    },
+  },
+
+  "al-marjan-island": {
+    logo: "/brands-logos/al-marjan.png",
+    headline: "TBD — short headline (SEO) — Al Marjan Island",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Al Marjan Island copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT AL MARJAN ISLAND",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Al Marjan Island", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Al Marjan Island)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "avenew-development": {
+    logo: "/brands-logos/avenew.png",
+    headline: "TBD — short headline (SEO) — Avenew Development",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Avenew Development copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT AVENEW DEVELOPMENT",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Avenew Development", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Avenew Development)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  beyond: {
+    logo: "/brands-logos/beyond.png",
+    headline: "TBD — short headline (SEO) — Beyond",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Beyond copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT BEYOND",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Beyond", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Beyond)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  binghatti: {
+    logo: "/brands-logos/binghatti.png",
+    headline: "TBD — short headline (SEO) — Binghatti",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Binghatti copy. This hub lists 3 off-plan projects on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT BINGHATTI",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Binghatti", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Binghatti)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "dar-global": {
+    logo: "/brands-logos/dar-logo.png",
+    headline: "TBD — short headline (SEO) — Dar Global",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Dar Global copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT DAR GLOBAL",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Dar Global", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Dar Global)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "deca-properties": {
+    logo: "/brands-logos/deca.png",
+    headline: "TBD — short headline (SEO) — Deca Properties",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Deca Properties copy. This hub lists 3 off-plan projects on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT DECA PROPERTIES",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Deca Properties", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Deca Properties)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "deyaar-developments": {
+    logo: "/brands-logos/deyaar.png",
+    headline: "TBD — short headline (SEO) — Deyaar Developments",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Deyaar Developments copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT DEYAAR DEVELOPMENTS",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Deyaar Developments", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Deyaar Developments)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "dubai-maritime-city": {
+    logo: "/brands-logos/dubai-maritime.png",
+    headline: "TBD — short headline (SEO) — Dubai Maritime City",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Dubai Maritime City copy. This hub lists 0 off-plan projects and links 1 community guide on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT DUBAI MARITIME CITY",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Dubai Maritime City", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Dubai Maritime City)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "dubai-south": {
+    logo: "/brands-logos/dubai-south.svg",
+    headline: "TBD — short headline (SEO) — Dubai South",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Dubai South copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT DUBAI SOUTH",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Dubai South", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Dubai South)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "ellington-properties": {
+    logo: "/brands-logos/ellington.png",
+    headline: "TBD — short headline (SEO) — Ellington Properties",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Ellington Properties copy. This hub lists 3 off-plan projects on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT ELLINGTON PROPERTIES",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Ellington Properties", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Ellington Properties)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "expo-city": {
+    logo: "/brands-logos/expo-city-dubai.png",
+    headline: "TBD — short headline (SEO) — Expo City",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Expo City copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT EXPO CITY",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Expo City", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Expo City)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "laya-developers": {
+    logo: "/brands-logos/laya.png",
+    headline: "TBD — short headline (SEO) — Laya Developers",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Laya Developers copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT LAYA DEVELOPERS",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Laya Developers", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Laya Developers)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "london-gate": {
+    logo: "/brands-logos/london-gate.png",
+    headline: "TBD — short headline (SEO) — London Gate",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved London Gate copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT LONDON GATE",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about London Gate", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (London Gate)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "majid-al-futtaim": {
+    logo: "/brands-logos/Majid-Al-Futtaim.png",
+    headline: "TBD — short headline (SEO) — Majid Al Futtaim",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Majid Al Futtaim copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT MAJID AL FUTTAIM",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Majid Al Futtaim", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Majid Al Futtaim)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  nshama: {
+    logo: "/brands-logos/nshama.png",
+    headline: "TBD — short headline (SEO) — Nshama",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Nshama copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT NSHAMA",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Nshama", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Nshama)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "ohana-development": {
+    logo: "/brands-logos/ohana.png",
+    headline: "TBD — short headline (SEO) — Ohana Development",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Ohana Development copy. This hub lists 0 off-plan projects and links 1 community guide on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT OHANA DEVELOPMENT",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Ohana Development", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Ohana Development)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "saas-properties": {
+    logo: "/brands-logos/saas.png",
+    headline: "TBD — short headline (SEO) — SAAS Properties",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved SAAS Properties copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT SAAS PROPERTIES",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about SAAS Properties", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (SAAS Properties)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "sobha-realty": {
+    logo: "/brands-logos/sobha.png",
+    headline: "TBD — short headline (SEO) — Sobha Realty",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Sobha Realty copy. This hub lists 1 off-plan project and links 1 community guide on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT SOBHA REALTY",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Sobha Realty", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Sobha Realty)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "the-chedi": {
+    logo: "/brands-logos/chedi.png",
+    headline: "TBD — short headline (SEO) — The Chedi",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved The Chedi copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT THE CHEDI",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about The Chedi", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (The Chedi)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "union-properties": {
+    logo: "/brands-logos/union.png",
+    headline: "TBD — short headline (SEO) — Union Properties",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Union Properties copy. This hub lists 1 off-plan project on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT UNION PROPERTIES",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Union Properties", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Union Properties)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  vida: {
+    logo: "/brands-logos/vida.svg",
+    headline: "TBD — short headline (SEO) — VIDA",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved VIDA copy. This hub lists 3 off-plan projects on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT VIDA",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about VIDA", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (VIDA)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+  "wasl-properties": {
+    logo: "/brands-logos/wasl.png",
+    headline: "TBD — short headline (SEO) — Wasl Properties",
+    tagline: "TBD — one subline for cards/meta",
+    heroBody:
+      "TBD. Replace with approved Wasl Properties copy. This hub lists 2 off-plan projects on hsproperty.ae — use filters, then speak to our RERA-registered team about payment and escrow.",
+    about: {
+      aboutSubtitle: "ABOUT WASL PROPERTIES",
+      aboutTitle: "TBD — official positioning / hero line (SEO)",
+      description: [
+        "TBD — paragraph 1: developer story, focus markets, and scale (facts from official sources).",
+        "TBD — paragraph 2: how to use this page + H&S support (DLD-registered, payment plan review, shortlisting).",
+      ],
+      cta: { label: "Ask our team about Wasl Properties", action: "expert" },
+      stats: [
+        { value: "TBD", label: "Metric 1" },
+        { value: "TBD", label: "Metric 2" },
+        { value: "TBD", label: "Metric 3" },
+        { value: "TBD", label: "Metric 4" },
+        { value: "TBD", label: "Metric 5" },
+        { value: "TBD", label: "Metric 6" },
+      ],
+    },
+    leadBanner: {
+      title: "TBD — lead banner (Wasl Properties)",
+      subtitle: "TBD — one line for conversion. Replace in SEO pass.",
+      showWhatsapp: true,
+    },
+  },
+};
+
+// Public `logo` path for a brand slug, or null (see BRAND_PROFILES[slug].logo).
+export function getBrandLogoSrc(slug) {
+  if (!slug || typeof slug !== "string") return null;
+  const p = BRAND_PROFILES[slug];
+  if (!p || p.logo == null) return null;
+  return typeof p.logo === "string" && p.logo.length > 0 ? p.logo : null;
+}

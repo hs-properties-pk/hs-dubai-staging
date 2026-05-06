@@ -1,0 +1,589 @@
+{
+  "slug": "dubai-islands",
+  "name": "Dubai Islands by Nakheel",
+  "hero": {
+    "imageSrc": "/communities/dubai-islands-nakheel/1.webp",
+    "imageAlt": "Dubai Islands waterfront community by Nakheel",
+    "badgeText": "Nakheel Properties",
+    "title": "Dubai Islands by Nakheel",
+    "subtitle": "Waterfront Living – A New Beach Experience in Dubai",
+    "description": "Explore the latest Nakheel project with Dubai Island Villas, offering luxurious living and a new beach experience in one iconic destination. Discover 5 interconnected islands with over 20 km of beachfront, luxury residences, and world-class amenities."
+  },
+  "overview": {
+    "title": "Dubai Islands by Nakheel",
+    "paragraphs": [
+      "Dubai Islands is one of the most ambitious waterfront projects in the UAE. It offers a refined vision of waterfront lifestyle, blending coastal beauty with modern urban planning. Nakheel Properties develops this master-planned waterfront community that is part of the well-known Nakheel Group.",
+      "This community shows what futuristic living looks like, aligning with Dubai’s 2040 vision and 2025 tourism goals. Dubai Islands is designed as a global vacation destination, combining luxury escapes, premium residences, and a thriving global community that overlooks Dubai’s skyline."
+    ],
+    "stats": [
+      {
+        "value": "17",
+        "label": "Total Area",
+        "description": "square kilometres"
+      },
+      {
+        "value": "5",
+        "label": "Islands",
+        "description": "interconnected islands"
+      },
+      {
+        "value": "20+",
+        "label": "Beachfront",
+        "description": "km of Dubai Islands beach"
+      },
+      {
+        "value": "Blue Flag",
+        "label": "Beaches",
+        "description": "certified beach zones"
+      }
+    ],
+    "quickFacts": [
+      "Over 20 km of Dubai Islands beach with clear beach boundaries",
+      "5 interconnected islands: Central, Shore, Marina, Golf, and Elite",
+      "Freehold properties available for all nationalities",
+      "Blue Flag beaches known for water quality, safety, and sustainability"
+    ],
+    "visionTitle": "From Deira Islands to Dubai Islands",
+    "visionParagraphs": [
+      "The development was originally launched as Deira Islands. Developers re-envisioned and relaunched it as Dubai Islands, better reflecting Dubai’s evolving urban ambitions. This transformation focuses on sustainable urban planning with eco-friendly features.",
+      "Nakheel has a proven portfolio that includes Palm Jumeirah, The World Islands, and Jumeirah Islands. Dubai Islands is a new type of island destination offering strong connectivity, tourism appeal, and residential value."
+    ],
+    "visionImage": "/communities/dubai-islands-nakheel/17.jpg",
+    "visionImageAlt": "Dubai Islands master community vision"
+  },
+  "developer": {
+    "title": "Nakheel Properties – Developer Profile",
+    "paragraphs": [
+      "Dubai Islands reflects the vision of Nakheel Properties, part of the renowned Nakheel Group. Known for iconic developments such as Palm Jumeirah, The World Islands, and Jumeirah Islands, Nakheel brings its expertise in waterfront development and master planning to Dubai Islands.",
+      "The development emphasizes quality construction, sustainable features including solar-powered amenities and EV charging stations, and long-term value, giving buyers confidence when considering Dubai Islands by Nakheel."
+    ]
+  },
+  "lifestyle": {
+    "title": "Island Soul Lifestyle – Relaxed, Elegant, Connected to Nature",
+    "subtitle": "Life on Dubai Islands is inspired by an Island Soul concept – relaxed, elegant, and connected to nature. Residents enjoy beachfront walks, vibrant cafés, curated art and cultural districts, and leisure activities against breathtaking coastal beauty.",
+    "features": [
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Beachfront Living",
+        "description": "Over 20 km of Blue Flag-certified beaches with private and public beach access"
+      },
+      {
+        "icon": "FaWater",
+        "title": "Water Activities",
+        "description": "Marinas, yacht clubs, water parks, and water sports hub for active lifestyle"
+      },
+      {
+        "icon": "FaTree",
+        "title": "Green Spaces",
+        "description": "Landscaped parks, green corridors, and open spaces for families and wellness"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Urban Amenities",
+        "description": "Retail destinations, waterfront dining, cultural attractions, and community spaces"
+      },
+      {
+        "icon": "FaSun",
+        "title": "Resort-Style Living",
+        "description": "Beach clubs, resort-style swimming pools, and panoramic architecture"
+      },
+      {
+        "icon": "FaHeart",
+        "title": "Community Focus",
+        "description": "Designed for families, professionals, and investors seeking waterfront lifestyle"
+      }
+    ],
+    "detailsTitle": null,
+    "detailsParagraphs": [],
+    "targetResidents": null,
+    "developmentPhase": null,
+    "investmentType": null
+  },
+  "location": {
+    "title": "Dubai Islands Location & Connectivity",
+    "subtitle": "Dubai Islands has a strong geographical advantage. It is close to Deira with excellent connectivity via Al Khaleej Road and easy access to Sheikh Zayed Road.",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d71004.62944007362!2d55.228265853772335!3d25.318165299597716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f45a74c7d3bdb%3A0x6979a49471530ec8!2sNakhlat%20Deira%20-%20Dubai%20Islands%20-%20Dubai%20-%20United%20Arab%20Emirates!5e1!3m2!1sen!2s!4v1772618819112!5m2!1sen!2s",
+    "keyConnections": [
+      "Direct connection to Al Khaleej Road",
+      "Easy access to Sheikh Zayed Road",
+      "Close proximity to Deira and Old Dubai",
+      "Excellent connectivity to major Dubai destinations"
+    ],
+    "features": [
+      {
+        "icon": "FaPlane",
+        "title": "Dubai International Airport",
+        "description": "15–20 minutes drive"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Downtown Dubai Skyline",
+        "description": "Approx. 25 minutes drive"
+      },
+      {
+        "icon": "FaMapMarkerAlt",
+        "title": "Old Dubai & Deira",
+        "description": "Immediate access"
+      },
+      {
+        "icon": "FaRoad",
+        "title": "Al Khaleej Road",
+        "description": "Direct connectivity"
+      }
+    ]
+  },
+  "keyFeatures": null,
+  "propertyTypes": {
+    "title": "Waterfront Property Types",
+    "subtitle": "Dubai Islands offers a variety of property types including luxury waterfront apartments, townhouses, semi-detached villas, and exclusive villas, all with freehold ownership available for all nationalities.",
+    "badgeText": "Dubai Islands",
+    "types": [
+      {
+        "name": "Luxury Waterfront Apartments",
+        "tag": "Premium apartments with sea views",
+        "perks": [
+          "Full sea view and panoramic architecture",
+          "Waterfront location with beach access",
+          "Modern design and premium finishes",
+          "Flexible payment plans available"
+        ],
+        "image": "/communities/dubai-islands-nakheel/4.jpg"
+      },
+      {
+        "name": "Townhouses & Semi-Detached Villas",
+        "tag": "Family-friendly waterfront homes",
+        "perks": [
+          "Spacious layouts for families",
+          "Private gardens and outdoor spaces",
+          "Beach and marina proximity",
+          "Community amenities access"
+        ],
+        "image": "/communities/dubai-islands-nakheel/7.jpg"
+      },
+      {
+        "name": "Bay Villas Dubai Islands",
+        "tag": "Exclusive luxury villas",
+        "perks": [
+          "Ultra-luxury waterfront villas",
+          "Private pools and refined finishes",
+          "Stone and wood cladding",
+          "Unmatched privacy and exclusivity"
+        ],
+        "image": "/communities/dubai-islands-nakheel/19.jpg"
+      }
+    ]
+  },
+  "masterPlan": {
+    "title": "Five Interconnected Islands",
+    "subtitle": "Dubai Islands consists of 5 distinct islands, each designed with a specific lifestyle focus, creating a diverse and integrated waterfront community.",
+    "items": [
+      {
+        "icon": "FaCity",
+        "title": "Central Island",
+        "description": "The vibrant core with major retail destinations, waterfront dining, cultural attractions, and active community spaces. Ideal for professionals and investors seeking an energetic island lifestyle."
+      },
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Shore Island",
+        "description": "Premium beachfront living with direct access to private beaches, beach clubs, and resort-style swimming pools. Residences emphasize Full Sea View, luxury design, and seamless indoor-outdoor living."
+      },
+      {
+        "icon": "FaAnchor",
+        "title": "Marina Island",
+        "description": "Built around yachts, marinas, and water transportation. Residents can access a water sports hub, promenade cafés, and leisure experiences enhanced by panoramic architecture and excellent design."
+      },
+      {
+        "icon": "FaGolfBall",
+        "title": "Golf Island",
+        "description": "Designed for families and long-term residents with landscaped parks, green corridors, and sports courts. Creates a balanced environment focused on wellness and recreation."
+      },
+      {
+        "icon": "FaCrown",
+        "title": "Elite Island",
+        "description": "Ultra-luxury living with exclusive villas, private pools, and refined finishes like stone and wood cladding. Offers unmatched privacy and reflects the pinnacle of luxury residences within Dubai Islands."
+      }
+    ]
+  },
+  "subCommunities": null,
+  "clusters": null,
+  "amenities": {
+    "title": "World-Class Amenities & Facilities",
+    "subtitle": "Dubai Islands delivers a fully integrated lifestyle with private and public beaches, marinas, water parks, beach clubs, and eco-friendly features.",
+    "items": [
+      {
+        "title": "Blue Flag Beaches",
+        "description": "Over 20 km of Dubai Islands beach with Blue Flag-certified beach zones known for water quality, safety, and sustainability",
+        "image": "/communities/dubai-islands-nakheel/22.jpg"
+      },
+      {
+        "title": "Marinas & Yacht Clubs",
+        "description": "Premium marinas and yacht clubs with water transportation and water sports hub for active lifestyle enthusiasts",
+        "image": "/communities/dubai-islands-nakheel/5.jpg"
+      },
+      {
+        "title": "Water Park & Beach Clubs",
+        "description": "Water park attractions, beach clubs, and resort-style facilities redefining island living in Dubai",
+        "image": "/communities/dubai-islands-nakheel/15.jpg"
+      },
+      {
+        "title": "Landscaped Parks",
+        "description": "Landscaped parks, green corridors, and community spaces designed for families, wellness, and recreation",
+        "image": "/communities/dubai-islands-nakheel/2.jpg"
+      },
+      {
+        "title": "Sports & Fitness",
+        "description": "Sports courts, fitness areas, and swimming pools for active residents and families",
+        "image": "/communities/dubai-islands-nakheel/12.jpg"
+      },
+      {
+        "title": "Eco-Friendly Features",
+        "description": "Solar-powered amenities, EV charging stations, and sustainable urban planning aligned with Dubai’s 2040 vision",
+        "image": "/communities/dubai-islands-nakheel/16.jpg"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Dubai Islands by Nakheel",
+    "subtitle": "Dubai Islands stands out among Dubai’s waterfront communities for several key reasons:",
+    "points": [
+      "Master-planned waterfront community by Nakheel Properties, part of the renowned Nakheel Group",
+      "5 interconnected islands with over 20 km of Blue Flag-certified beaches",
+      "Diverse property types: waterfront apartments, townhouses, semi-detached villas, and luxury villas",
+      "Freehold ownership available for all nationalities with mortgage pre-approved options",
+      "Strong connectivity via Al Khaleej Road and Sheikh Zayed Road",
+      "Tourism-driven rental demand and premium waterfront positioning",
+      "Eco-friendly features including solar-powered amenities and EV charging stations",
+      "Integrated retail, culture, and lifestyle zones creating a complete community"
+    ]
+  },
+  "investmentBenefits": {
+    "title": "Real Estate Investment Potential",
+    "subtitle": "Dubai Islands offers great opportunities for real estate investing, especially focusing on off-plan properties with flexible payment plans and competitive entry pricing.",
+    "benefits": [
+      {
+        "icon": "FaChartLine",
+        "title": "Competitive Entry Pricing",
+        "description": "Strong value during early development stages compared to established island communities"
+      },
+      {
+        "icon": "FaHandHoldingUsd",
+        "title": "Tourism-Led Rental Demand",
+        "description": "Strong rental potential driven by Dubai’s tourism goals and beachfront appeal"
+      },
+      {
+        "icon": "FaKey",
+        "title": "Freehold Ownership",
+        "description": "Available to all nationalities with mortgage pre-approved facilities for easier ownership"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Nakheel Group Backing",
+        "description": "Trusted developer with proven track record including Palm Jumeirah and The World Islands"
+      },
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Premium Waterfront Positioning",
+        "description": "Over 20 km of beachfront with Blue Flag certification adds long-term value"
+      },
+      {
+        "icon": "FaUsers",
+        "title": "Phased Development",
+        "description": "Multiple phases with flexible payment plans and early buyer advantages"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Dubai Islands Gallery",
+    "description": "Experience Dubai Islands through our visual journey of waterfront living",
+    "images": [
+      {
+        "src": "/communities/dubai-islands-nakheel/2.jpg",
+        "alt": "Dubai Islands beachfront"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/4.jpg",
+        "alt": "Dubai Islands luxury villas"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/5.jpg",
+        "alt": "Dubai Islands lifestyle"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/6.jpg",
+        "alt": "Dubai Islands amenities"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/7.jpg",
+        "alt": "Dubai Islands waterfront community"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/8.jpg",
+        "alt": "Dubai Islands beachfront"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/9.jpg",
+        "alt": "Dubai Islands marina"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/10.jpg",
+        "alt": "Dubai Islands luxury villas"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/11.jpg",
+        "alt": "Dubai Islands lifestyle"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/12.jpg",
+        "alt": "Dubai Islands amenities"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/13.jpg",
+        "alt": "Dubai Islands waterfront community"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/14.jpg",
+        "alt": "Dubai Islands beachfront"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/15.jpg",
+        "alt": "Dubai Islands marina"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/16.jpg",
+        "alt": "Dubai Islands luxury villas"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/17.jpg",
+        "alt": "Dubai Islands lifestyle"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/18.jpg",
+        "alt": "Dubai Islands amenities"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/19.jpg",
+        "alt": "Dubai Islands marina"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/20.jpg",
+        "alt": "Dubai Islands luxury villas"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/21.jpg",
+        "alt": "Dubai Islands lifestyle"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/22.jpg",
+        "alt": "Dubai Islands amenities"
+      },
+      {
+        "src": "/communities/dubai-islands-nakheel/23.jpg",
+        "alt": "Dubai Islands amenities"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "description": "Everything you need to know about Dubai Islands",
+    "faqs": [
+      {
+        "q": "What is Dubai Islands and who is developing it?",
+        "a": "Dubai Islands is a master-planned waterfront community developed by Nakheel Properties, part of the renowned Nakheel Group. It includes 5 interconnected islands with beaches, luxury residences, and commercial zones."
+      },
+      {
+        "q": "Where is Dubai Islands located?",
+        "a": "Dubai Islands is located near Deira with easy connectivity via Al Khaleej Road and Sheikh Zayed Road. Key areas like Downtown Dubai, Dubai International Airport, and Old Dubai are within 20–25 minutes."
+      },
+      {
+        "q": "What types of properties are available in Dubai Islands?",
+        "a": "The community offers a variety of options including waterfront apartments, townhouses, semi-detached villas, luxury Dubai Island villas like Bay Villas Dubai Islands, and off-plan properties with flexible Payment Plan options."
+      },
+      {
+        "q": "Are the properties freehold?",
+        "a": "Yes, freehold properties are available for all nationalities. Buyers get mortgage pre-approved facilities and benefit from competitive pricing."
+      },
+      {
+        "q": "What lifestyle amenities are offered?",
+        "a": "Dubai Islands features Blue Flag beaches and beach clubs, water park and water sports hub, marinas and water transportation, landscaped parks and green corridors, fitness areas, swimming pools, sports courts, and eco-friendly elements such as solar-powered amenities and EV charging stations."
+      },
+      {
+        "q": "How does Dubai Islands compare to Palm Jumeirah and The World Islands?",
+        "a": "Dubai Islands offers larger beachfronts with beach boundaries, more diverse property options including Vibrant Beach Residences, stronger focus on community living rather than exclusivity, and integrated retail destinations and cultural districts."
+      },
+      {
+        "q": "What makes Dubai Islands a good investment?",
+        "a": "Investors are attracted to Dubai Islands due to strong real estate investing potential, tourism-driven rental demand, backing of Nakheel Group and Nakheel new projects, and premium waterfront lifestyle with panoramic architecture."
+      },
+      {
+        "q": "Are there family-friendly facilities?",
+        "a": "Yes, Dubai Islands is ideal for families, with safe beaches and Blue Flag-certified beach zones, green spaces, parks, and community spaces, sports courts, playgrounds, and swimming pools, and proximity to schools and essential services."
+      },
+      {
+        "q": "What is the expected completion timeline?",
+        "a": "Dubai Islands is being developed in phases. Many off-plan properties are available now. Nakheel expects to deliver them according to its development schedule. Early buyers benefit from flexible Payment Plan structures."
+      },
+      {
+        "q": "Can foreigners buy property in Dubai Islands?",
+        "a": "All freehold properties are available for local and international buyers. This makes Dubai Islands an attractive global community for residents and investors."
+      }
+    ]
+  },
+  "cta": {
+    "sectionLabel": "YOUR WATERFRONT OPPORTUNITY",
+    "title": "Ready to Explore Dubai Islands by Nakheel?",
+    "description": "Tell us what you’re looking for in this waterfront community — we’ll share current availability, island details, off-plan opportunities, and the best match for your family or investment needs.",
+    "ctaText": "Get Started",
+    "footnote": "Waterfront properties • Flexible payment plans • Off-plan opportunities"
+  },
+  "footer": {
+    "brandName": "DUBAI ISLANDS",
+    "tagline": "A master-planned waterfront community by Nakheel Properties. Waterfront living with a new beach experience in one iconic destination."
+  },
+  "form": {
+    "title": "Dubai Islands Inquiry",
+    "subtitle": "Get details about properties in Dubai Islands",
+    "sourceLabel": "Dubai Islands Landing Page"
+  },
+  "meta": {
+    "title": "Dubai Islands Community By Nakheel",
+    "description": "Explore the latest Nakheel project with Dubai Island Villas, offering luxurious living and a new beach experience in one iconic destination.",
+    "keywords": "dubai island, dubai island beach, nakheel new projects, dubai islands beach, dubai island project, dubai island villas, dubai island map, dubai islands nakheel, island beach, new beach in dubai, dubai island map, new beach in dubai, real estate investing, real estate brokers in dubai, the world islands dubai, off plan properties dubai, dubai islands, nakheel properties, waterfront living, blue flag beaches, freehold properties, marina island, shore island, central island, golf island, elite island, bay villas dubai islands",
+    "url": "https://hsproperty.ae/communities/dubai-islands",
+    "ogImage": "/communities/dubai-islands-nakheel/hero.webp",
+    "schemas": {
+      "place": {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Dubai Islands, Dubai",
+        "url": "https://hsproperty.ae/communities/dubai-islands",
+        "description": "Dubai Islands is a premier residential community in Dubai. Explore off-plan and ready properties with H&S Real Estate.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE"
+        },
+        "containedInPlace": {
+          "@type": "City",
+          "name": "Dubai",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        },
+        "potentialAction": {
+          "@type": "ViewAction",
+          "name": "View Properties in Dubai Islands",
+          "target": "https://hsproperty.ae/communities/dubai-islands"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://hsproperty.ae"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Communities",
+              "item": "https://hsproperty.ae/communities"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Dubai Islands",
+              "item": "https://hsproperty.ae/communities/dubai-islands"
+            }
+          ]
+        }
+      },
+      "product": {
+        "@context": "https://schema.org",
+        "@type": "RealEstateListing",
+        "name": "Dubai Islands by Nakheel",
+        "description": "A master-planned waterfront community with 5 interconnected islands, over 20 km of Blue Flag-certified beaches, luxury waterfront apartments, townhouses, and villas developed by Nakheel Properties.",
+        "url": "https://hsproperty.ae/communities/dubai-islands",
+        "image": [
+          "https://hsproperty.ae/communities/dubai-islands-nakheel/hero.webp",
+          "https://hsproperty.ae/communities/dubai-islands-nakheel/beach.webp",
+          "https://hsproperty.ae/communities/dubai-islands-nakheel/marina.webp"
+        ],
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE",
+          "streetAddress": "Near Deira, Al Khaleej Road"
+        },
+        "developer": {
+          "@type": "Organization",
+          "name": "Nakheel Properties",
+          "url": "https://www.nakheel.com"
+        },
+        "numberOfBedrooms": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "telephone": "+971-4-345-4888"
+      },
+      "faq": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Dubai Islands and who is developing it?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dubai Islands is a master-planned waterfront community developed by Nakheel Properties, part of the renowned Nakheel Group. It includes 5 interconnected islands with beaches, luxury residences, and commercial zones."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is Dubai Islands located?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Dubai Islands is located near Deira with easy connectivity via Al Khaleej Road and Sheikh Zayed Road. Key areas like Downtown Dubai, Dubai International Airport, and Old Dubai are within 20–25 minutes."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of properties are available in Dubai Islands?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The community offers a variety of options including waterfront apartments, townhouses, semi-detached villas, luxury Dubai Island villas like Bay Villas Dubai Islands, and off-plan properties with flexible Payment Plan options."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Are the properties freehold?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes, freehold properties are available for all nationalities. Buyers get mortgage pre-approved facilities and benefit from competitive pricing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What makes Dubai Islands a good investment?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Investors are attracted to Dubai Islands due to strong real estate investing potential, tourism-driven rental demand, backing of Nakheel Group and Nakheel new projects, and premium waterfront lifestyle with panoramic architecture."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "thankyou": {
+    "communityName": "Dubai Islands",
+    "description": "Your inquiry regarding Dubai Islands by Nakheel has been successfully submitted. A property specialist will contact you within 24 hours with more information about Dubai Islands.",
+    "returnLabel": "Return to Dubai Islands Page"
+  }
+}

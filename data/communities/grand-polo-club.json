@@ -1,0 +1,609 @@
+{
+  "slug": "grand-polo-club",
+  "name": "Grand Polo Club & Resort",
+  "hero": {
+    "imageSrc": "/grand-polo-club-emaar/1.png",
+    "imageAlt": "Grand Polo Club & Resort",
+    "badgeText": "Emaar Properties",
+    "title": "Grand Polo Club & Resort",
+    "subtitle": "Where equestrian heritage meets modern luxury living",
+    "description": "Experience Dubai’s premier polo-inspired residential community. Grand Polo Club & Resort by Emaar combines equestrian heritage with modern architecture in a low-density, nature-focused neighbourhood."
+  },
+  "overview": {
+    "title": "Equestrian Heritage Meets Modern Luxury",
+    "paragraphs": [
+      "Grand Polo Club & Resort by Emaar is a modern tribute to polo and horse riding life. The Emaar Grand Polo community combines equestrian heritage with modern architecture, showing how a major real estate company in dubai can turn a niche lifestyle idea into a full real estate development.",
+      "The community is designed as a low-density, nature-focused neighbourhood with active sporting estate and residential harmony. Gated clusters with internal parks and amenities create a private, resort-style living environment."
+    ],
+    "stats": [
+      {
+        "value": "70%",
+        "label": "Green Coverage",
+        "description": "Extensive landscaped areas"
+      },
+      {
+        "value": "24/7",
+        "label": "Security",
+        "description": "Gated community"
+      },
+      {
+        "value": "Professional",
+        "label": "Polo Fields",
+        "description": "Equestrian facilities"
+      },
+      {
+        "value": "Resort-style",
+        "label": "Amenities",
+        "description": "World-class facilities"
+      }
+    ],
+    "quickFacts": [
+      "Low-density, nature-focused neighbourhood",
+      "Active sporting estate with residential harmony",
+      "Wellness, privacy and resort-style facilities",
+      "Gated clusters with internal parks and amenities"
+    ],
+    "visionTitle": "Equestrian-Inspired Design",
+    "visionParagraphs": [
+      "Central polo fields, stables and clubhouse form the sporting heart of the community. The design integrates equestrian facilities seamlessly with residential areas, creating a unique lifestyle experience.",
+      "Green corridors connect neighbourhoods, while the clubhouse offers viewing points over the fields. This integration of sport and living makes Grand Polo Club & Resort truly distinctive among Dubai’s luxury communities."
+    ],
+    "visionImage": "/grand-polo-club-emaar/3.png",
+    "visionImageAlt": "Equestrian-inspired design"
+  },
+  "developer": {
+    "title": "Emaar Properties – Developer Profile",
+    "paragraphs": [
+      "The community is developed by Emaar Properties, a leading real estate company in Dubai known for projects such as Downtown Dubai, Dubai Marina, Arabian Ranches and Dubai Hills Estate. Emaar brings its expertise in master-planned communities to Grand Polo Club & Resort.",
+      "The development follows Emaar’s focus on quality construction, well-planned public spaces, and sustainable long-term value, adding confidence for buyers considering Grand Polo Club & Resort."
+    ]
+  },
+  "lifestyle": {
+    "title": "Equestrian & Resort Lifestyle",
+    "subtitle": "Residents can expect a low-density, green and resort-style lifestyle focused on outdoor activities, privacy and equestrian-inspired amenities.",
+    "features": [
+      {
+        "icon": "FaHorseHead",
+        "title": "Polo Fields",
+        "description": "Large grass fields for sporting and community events, forming the sporting heart of the community"
+      },
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Resort Pools",
+        "description": "Multiple swimming pools with resort-style facilities for relaxation and recreation"
+      },
+      {
+        "icon": "FaTree",
+        "title": "Green Parks",
+        "description": "Extensive landscaped gardens and walking trails throughout the community"
+      },
+      {
+        "icon": "FaCompass",
+        "title": "Equestrian Club",
+        "description": "Clubhouse with viewing points over fields and equestrian facilities"
+      }
+    ],
+    "detailsTitle": "Everyday Living: Residents, Lifestyle & Services",
+    "detailsParagraphs": [
+      "The community offers a unique blend of sporting facilities and residential comfort. Central polo fields and the equestrian club provide active recreation, while extensive parks and walking trails offer peaceful retreats.",
+      "Gated clusters ensure privacy and security, with internal parks and amenities serving each neighbourhood. The resort-style facilities create a vacation-like atmosphere year-round."
+    ],
+    "targetResidents": "Families, equestrian enthusiasts, luxury home seekers",
+    "developmentPhase": "Multi-phase off-plan development",
+    "investmentType": "Freehold, off-plan opportunities available"
+  },
+  "location": {
+    "title": "Strategic Location & Connectivity",
+    "subtitle": "The Emaar Grand Polo community is perfectly positioned within Dubai Investments Park area with excellent access to major routes and key destinations.",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14467.119522923302!2d55.20950857833818!3d24.9736027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f730021d4dc01%3A0xf5a2e447365938cc!2sGrand%20Polo%20Club%20%26%20Resort!5e0!3m2!1sen!2s!4v1772188812672!5m2!1sen!2s",
+    "keyConnections": [
+      "Near Expo Road (E77) and Emirates Road (E611) junction",
+      "Excellent connectivity to Expo City Dubai and Al Maktoum Airport",
+      "Adjacent to Dubai Investments Park with shopping and dining",
+      "25 minutes to Downtown Dubai via major highways"
+    ],
+    "features": [
+      {
+        "icon": "FaMapMarkerAlt",
+        "title": "Expo City Dubai",
+        "description": "10 minutes drive"
+      },
+      {
+        "icon": "FaCompass",
+        "title": "Al Maktoum Airport",
+        "description": "15 minutes drive"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Dubai Investments Park",
+        "description": "Adjacent"
+      },
+      {
+        "icon": "FaWind",
+        "title": "Emirates Road",
+        "description": "Direct access"
+      }
+    ]
+  },
+  "keyFeatures": null,
+  "propertyTypes": {
+    "title": "Signature Residences",
+    "subtitle": "Discover luxury villas and townhouses at Grand Polo Club and Resort Dubai designed for the ultimate equestrian lifestyle and real estate investment.",
+    "badgeText": "Grand Polo",
+    "types": [
+      {
+        "name": "3-5 Bedroom Villas",
+        "tag": "Luxury configurations with polo field views",
+        "perks": [
+          "Private gardens",
+          "Spacious layouts",
+          "Premium finishes",
+          "Polo field views"
+        ],
+        "image": "/grand-polo-club-emaar/24.png"
+      },
+      {
+        "name": "Townhouses",
+        "tag": "Modern living spaces in Equestra cluster",
+        "perks": [
+          "Green space access",
+          "Modern architecture",
+          "Community amenities",
+          "Family-friendly"
+        ],
+        "image": "/grand-polo-club-emaar/11.png"
+      },
+      {
+        "name": "Premium Villas",
+        "tag": "Ultra-luxury residences with exclusive access",
+        "perks": [
+          "Larger plots",
+          "Premium views",
+          "Custom finishes",
+          "Exclusive access"
+        ],
+        "image": "/grand-polo-club-emaar/12.png"
+      }
+    ]
+  },
+  "masterPlan": null,
+  "subCommunities": null,
+  "clusters": {
+    "title": "Master Plan & Neighborhood Clusters",
+    "subtitle": "Distinct residential clusters offering varied lifestyles within the community, each with its own character and appeal.",
+    "items": [
+      {
+        "name": "Equestra",
+        "description": "Townhouses integrated with linear parks and open spaces",
+        "icon": "FaTree",
+        "features": [
+          "Townhouses",
+          "Linear parks",
+          "Green corridors",
+          "Family-focused"
+        ],
+        "image": "/grand-polo-club-emaar/13.png"
+      },
+      {
+        "name": "Chevalia",
+        "description": "Villas with premium finishes and polo field proximity",
+        "icon": "FaHorse",
+        "features": [
+          "Premium villas",
+          "Field views",
+          "Private gardens",
+          "Exclusive"
+        ],
+        "image": "/grand-polo-club-emaar/19.png"
+      },
+      {
+        "name": "Selvara",
+        "description": "Nature-inspired residences with forest-style walks",
+        "icon": "FaLeaf",
+        "features": [
+          "Nature walks",
+          "Green spaces",
+          "Wellness focus",
+          "Tranquil"
+        ],
+        "image": "/grand-polo-club-emaar/16.png"
+      }
+    ]
+  },
+  "amenities": {
+    "title": "World-Class Amenities",
+    "subtitle": "Resort-style facilities designed for wellness, sport, and community living within this exclusive equestrian community.",
+    "items": [
+      {
+        "title": "Swimming Pools",
+        "description": "Multiple resort-style pools for relaxation and recreation",
+        "image": "/grand-polo-club-emaar/4.png"
+      },
+      {
+        "title": "Fitness Center",
+        "description": "State-of-the-art gym and wellness facilities",
+        "image": "/grand-polo-club-emaar/7.png"
+      },
+      {
+        "title": "Green Parks",
+        "description": "Extensive landscaped gardens and walking trails",
+        "image": "/grand-polo-club-emaar/6.png"
+      },
+      {
+        "title": "Clubhouse",
+        "description": "Social hub with viewing areas and dining options",
+        "image": "/grand-polo-club-emaar/5.png"
+      },
+      {
+        "title": "Equestrian Club",
+        "description": "Central polo fields and stables form the sporting heart",
+        "image": "/grand-polo-club-emaar/2.png"
+      },
+      {
+        "title": "24/7 Security",
+        "description": "Gated community with comprehensive security",
+        "image": "/grand-polo-club-emaar/8.png"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Choose Grand Polo Club & Resort",
+    "subtitle": "Grand Polo Club & Resort by Emaar stands out among Dubai’s luxury communities for several key reasons:",
+    "points": [
+      "Unique equestrian-themed community with active sporting estate",
+      "Low-density, nature-focused neighbourhood with extensive green spaces",
+      "Resort-style amenities with polo fields, pools and clubhouse",
+      "Strategic location near Expo City and Al Maktoum Airport",
+      "Backed by Emaar’s trusted reputation in master-planned communities"
+    ]
+  },
+  "investmentBenefits": {
+    "title": "Investment Benefits",
+    "subtitle": "Why Emaar Grand Polo Club & Resort is a smart real estate investment choice",
+    "benefits": [
+      {
+        "icon": "FaChartLine",
+        "title": "Capital Growth",
+        "description": "Premium equestrian-themed community with strong appreciation potential"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Emaar Brand",
+        "description": "Developed by Dubai’s most trusted real estate developer"
+      },
+      {
+        "icon": "FaCalendar",
+        "title": "Off-Plan Opportunities",
+        "description": "Flexible payment plans with phased development"
+      },
+      {
+        "icon": "FaUsers",
+        "title": "Rental Demand",
+        "description": "High demand for luxury villa communities"
+      },
+      {
+        "icon": "FaLeaf",
+        "title": "Green Living",
+        "description": "Nature-focused sustainable community appeal"
+      },
+      {
+        "icon": "FaHandHoldingUsd",
+        "title": "Freehold Property",
+        "description": "Available to all nationalities with freehold ownership"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Lifestyle Gallery",
+    "description": "Experience Grand Polo Club & Resort through our visual journey",
+    "images": [
+      {
+        "src": "/grand-polo-club-emaar/1.png",
+        "alt": "Grand Polo Club aerial view"
+      },
+      {
+        "src": "/grand-polo-club-emaar/2.png",
+        "alt": "Crystal lagoon and beach area"
+      },
+      {
+        "src": "/grand-polo-club-emaar/3.png",
+        "alt": "Modern coastal villas"
+      },
+      {
+        "src": "/grand-polo-club-emaar/4.png",
+        "alt": "Townhouse community layout"
+      },
+      {
+        "src": "/grand-polo-club-emaar/5.png",
+        "alt": "Marina and water sports facilities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/6.png",
+        "alt": "Community amenities and parks"
+      },
+      {
+        "src": "/grand-polo-club-emaar/7.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/8.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/9.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/10.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/11.png",
+        "alt": "Townhouse exteriors"
+      },
+      {
+        "src": "/grand-polo-club-emaar/12.png",
+        "alt": "Premium villas"
+      },
+      {
+        "src": "/grand-polo-club-emaar/13.png",
+        "alt": "Equestra cluster"
+      },
+      {
+        "src": "/grand-polo-club-emaar/14.png",
+        "alt": "Community views"
+      },
+      {
+        "src": "/grand-polo-club-emaar/15.png",
+        "alt": "Landscaped gardens"
+      },
+      {
+        "src": "/grand-polo-club-emaar/16.png",
+        "alt": "Selvara nature walks"
+      },
+      {
+        "src": "/grand-polo-club-emaar/17.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/18.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/19.png",
+        "alt": "Chevalia villas"
+      },
+      {
+        "src": "/grand-polo-club-emaar/20.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/21.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/22.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/23.png",
+        "alt": "Community amenities"
+      },
+      {
+        "src": "/grand-polo-club-emaar/24.png",
+        "alt": "Luxury villas"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "description": "Everything you need to know about Grand Polo Club & Resort",
+    "faqs": [
+      {
+        "q": "What is Grand Polo Club & Resort by Emaar?",
+        "a": "Grand Polo Club & Resort by Emaar is a large equestrian-themed residential community in Dubai, featuring villas, townhouses, polo fields, a clubhouse and resort-style amenities within a gated master plan."
+      },
+      {
+        "q": "Where is Grand Polo Club and Resort Dubai located?",
+        "a": "The community is located in the Dubai Investments Park area, near the junction of Expo Road (E77) and Emirates Road (E611), with good connectivity to Expo City Dubai, Al Maktoum International Airport and other key destinations."
+      },
+      {
+        "q": "What types of homes are available in Grand Polo by Emaar?",
+        "a": "The project offers mainly 3–5 bedroom villas and townhouses, with different clusters providing varied layouts, plot sizes and orientations. Some higher-spec villas are positioned closer to the polo fields or key landscaped areas."
+      },
+      {
+        "q": "Is Grand Polo Club & Resort an off-plan project?",
+        "a": "Yes. Grand Polo Club & Resort is currently being developed in phases as an off-plan master community, making it part of the wider off plan project in UAE market. Specific launch phases may have different timelines and conditions."
+      },
+      {
+        "q": "Who is the developer behind Emaar Grand Polo community?",
+        "a": "The community is developed by Emaar Properties, a leading real estate company in Dubai known for projects such as Downtown Dubai, Dubai Marina, Arabian Ranches and Dubai Hills Estate."
+      },
+      {
+        "q": "What kind of lifestyle does Grand Polo Club & Resort offer?",
+        "a": "Residents can expect a low-density, green and resort-style lifestyle focused on outdoor activities, privacy and equestrian-inspired amenities, rather than a dense high-rise or city-centre environment."
+      }
+    ]
+  },
+  "cta": {
+    "sectionLabel": "YOUR EQUESTRIAN OPPORTUNITY",
+    "title": "Ready for Equestrian Luxury Living?",
+    "description": "Connect with our property specialists for exclusive insights on Grand Polo Club & Resort. Discover available properties, off-plan opportunities, and investment potential in this unique equestrian community.",
+    "ctaText": "Request Exclusive Property Details",
+    "footnote": "Luxury villas & townhouses • Flexible off-plan payment plans • Equestrian lifestyle"
+  },
+  "footer": {
+    "brandName": "GRAND POLO CLUB",
+    "tagline": "Where equestrian heritage meets modern luxury living. Dubai’s premier polo-inspired residential community by Emaar Properties."
+  },
+  "form": {
+    "title": "Grand Polo Club Inquiry",
+    "subtitle": "Get details about luxury equestrian properties",
+    "sourceLabel": "Grand Polo Club Landing Page"
+  },
+  "meta": {
+    "title": "Grand Polo Club Dubai | Equestrian Villas & Mansions | H&S",
+    "description": "Grand Polo Club & Resort Dubai — ultra-luxury equestrian community. Mansions, villas & polo estate lots. Limited availability. Enquire with H&S today.",
+    "keywords": [
+      "Grand Polo Club & Resort by Emaar",
+      "Grand Polo Club and Resort Dubai",
+      "Grand Polo by Emaar",
+      "Emaar Grand Polo Club & Resort",
+      "Emaar Grand Polo community",
+      "off plan project in uae",
+      "real estate",
+      "real estate company in dubai"
+    ],
+    "url": "https://hsproperty.ae/communities/grand-polo-club",
+    "ogImage": "https://hsproperty.ae/_next/image?q=90&url=%2Flogos-icons%2FH%26S-Dubai-Logo-Black.png&w=3840",
+    "schemas": {
+      "place": {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Grand Polo Club, Dubai",
+        "url": "https://hsproperty.ae/communities/grand-polo-club",
+        "description": "Grand Polo Club is a premier residential community in Dubai. Explore off-plan and ready properties with H&S Real Estate.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE"
+        },
+        "containedInPlace": {
+          "@type": "City",
+          "name": "Dubai",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        },
+        "potentialAction": {
+          "@type": "ViewAction",
+          "name": "View Properties in Grand Polo Club",
+          "target": "https://hsproperty.ae/communities/grand-polo-club"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://hsproperty.ae"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Communities",
+              "item": "https://hsproperty.ae/communities"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Grand Polo Club",
+              "item": "https://hsproperty.ae/communities/grand-polo-club"
+            }
+          ]
+        }
+      },
+      "graphProductBreadcrumb": {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Product",
+            "name": "Grand Polo Club and Resort Dubai",
+            "url": "https://hsproperty.ae/communities/grand-polo-club",
+            "description": "Grand Polo Club and Resort by Emaar — ultra-luxury equestrian community in Dubai. Mansions, villas, and polo estate lots.",
+            "brand": {
+              "@type": "Brand",
+              "name": "Emaar Properties"
+            },
+            "offers": {
+              "@type": "Offer",
+              "priceCurrency": "AED",
+              "price": "4000000",
+              "availability": "https://schema.org/InStock"
+            },
+            "image": "https://hsproperty.ae/logos-icons/H&S-Dubai-Logo-Black.png"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://hsproperty.ae"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Grand Polo Club",
+                "item": "https://hsproperty.ae/communities/grand-polo-club"
+              }
+            ]
+          }
+        ]
+      },
+      "faq": {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Grand Polo Club & Resort by Emaar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Grand Polo Club & Resort by Emaar is a large equestrian-themed residential community in Dubai, featuring villas, townhouses, polo fields, a clubhouse and resort-style amenities within a gated master plan."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Where is Grand Polo Club and Resort Dubai located?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The community is located in the Dubai Investments Park area, near the junction of Expo Road (E77) and Emirates Road (E611), with good connectivity to Expo City Dubai, Al Maktoum International Airport and other key destinations."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What types of homes are available in Grand Polo by Emaar?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The project offers mainly 3–5 bedroom villas and townhouses, with different clusters providing varied layouts, plot sizes and orientations. Some higher-spec villas are positioned closer to the polo fields or key landscaped areas."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Is Grand Polo Club & Resort an off-plan project?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes. Grand Polo Club & Resort is currently being developed in phases as an off-plan master community, making it part of the wider off plan project in UAE market. Specific launch phases may have different timelines and conditions, so buyers usually review current project details before committing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Who is the developer behind Emaar Grand Polo community?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The community is developed by Emaar Properties, a leading real estate company in Dubai known for projects such as Downtown Dubai, Dubai Marina, Arabian Ranches and Dubai Hills Estate."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What kind of lifestyle does Grand Polo Club & Resort offer?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Residents can expect a low-density, green and resort-style lifestyle focused on outdoor activities, privacy and equestrian-inspired amenities, rather than a dense high-rise or city-centre environment."
+            }
+          }
+        ]
+      }
+    }
+  },
+  "thankyou": {
+    "communityName": "Grand Polo Club & Resort",
+    "description": "Your Grand Polo Club inquiry has been received. Our luxury property specialists will contact you within 24 hours with exclusive details.",
+    "returnLabel": "Back to Grand Polo Club & Resort"
+  }
+}

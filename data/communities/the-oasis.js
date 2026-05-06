@@ -1,0 +1,614 @@
+export const theOasisData = {
+  slug: "the-oasis",
+  name: "The Oasis by Emaar",
+
+  hero: {
+    imageSrc: "/palmiera_the_oasis/8.webp",
+    imageAlt: "The Oasis Dubai Luxury Villas by Emaar",
+    badgeText: "Emaar Properties",
+    title: "The Oasis by Emaar",
+    subtitle: "Luxury Villas in Dubai\u2019s Premier Oasis Community",
+    description:
+      "Discover The Oasis by Emaar, a premium collection of 4,5,6 bedroom luxury villas within a 100-million sq. ft master community. Experience crystal lagoon living with world-class amenities and smart home features.",
+  },
+
+  overview: {
+    title: "The Oasis by Emaar",
+    paragraphs: [
+      "The Oasis Dubai is a premium collection of luxury 4,5,6 bedroom villas built within an approximately 100-million sq. ft master community by Emaar Properties. These villas are designed for upscale family living with spacious layouts, private gardens, and modern interiors.",
+      "Located in a prime area of Dubai, The Oasis offers residents a serene environment with crystal lagoon access, smart home features, and close proximity to world-class lifestyle amenities. This high-end residential community represents one of Dubai\u2019s most anticipated luxury villa developments.",
+    ],
+    stats: [
+      { value: "Premium", label: "Location", description: "The Oasis, Dubai" },
+      { value: "Emaar", label: "Developer", description: "Trusted brand" },
+      {
+        value: "7,269+",
+        label: "Villa Size",
+        description: "sq.ft living space",
+      },
+      { value: "4-6", label: "Bedrooms", description: "Luxury villas" },
+    ],
+    quickFacts: [
+      "100-million sq. ft master community",
+      "Crystal lagoon and water activities",
+      "Smart home integrated technology",
+      "Golden Visa eligible properties",
+    ],
+    visionTitle: "Emaar\u2019s Vision for Luxury Living",
+    visionParagraphs: [
+      "The Oasis represents Emaar\u2019s commitment to creating integrated communities that blend luxury living with natural surroundings. Each villa is crafted with attention to detail, featuring modern minimalist architecture with facades blending glass, wood, and stone textures.",
+      "The development reflects Emaar\u2019s focus on quality construction, well-planned public spaces, and sustainable long-term value, adding confidence for buyers considering The Oasis by Emaar.",
+    ],
+    visionImage: "/palmiera_the_oasis/2.webp",
+    visionImageAlt: "The Oasis master community vision",
+  },
+
+  developer: {
+    title: "Emaar \u2013 Developer Profile",
+    paragraphs: [
+      "The Oasis reflects the vision of Emaar, one of Dubai\u2019s most established and trusted real estate developers. Known for delivering master-planned communities across the city, Emaar brings its expertise in design, infrastructure, and sustainable living to The Oasis.",
+      "The development follows Emaar\u2019s focus on quality construction, well-planned public spaces, crystal lagoons and green corridors, adding confidence for buyers considering The Oasis by Emaar.",
+    ],
+  },
+
+  lifestyle: {
+    title: "The Oasis Lifestyle",
+    subtitle:
+      "Living at The Oasis is built around nature, lagoons and villa living",
+    features: [
+      {
+        icon: "FaWater",
+        title: "Crystal Lagoons",
+        description:
+          "Crystal clear lagoons for swimming and water activities at the heart of the community.",
+      },
+      {
+        icon: "FaTree",
+        title: "Golf & Green Living",
+        description:
+          "Lush landscapes and green spaces designed for outdoor living and recreation.",
+      },
+      {
+        icon: "FaBuilding",
+        title: "Luxury Villa Living",
+        description:
+          "4, 5 and 6 bedroom villas with premium Emaar finishes and smart home technology.",
+      },
+      {
+        icon: "FaUmbrellaBeach",
+        title: "Family Amenities",
+        description:
+          "Pools, parks, clubhouse and retail within the master community for everyday convenience.",
+      },
+    ],
+    detailsTitle: "Everyday Living: Residents, Lifestyle & Services",
+    detailsParagraphs: [
+      "The Oasis is designed as a premium villa community with crystal lagoons and green spaces at its core. Residents enjoy private gardens, smart home features, and access to community pools, parks and clubhouse amenities.",
+      "The master community combines low-density villa living with the convenience of retail, schools and connectivity to Dubai\u2019s key districts, making it ideal for families and end-users seeking a long-term home.",
+    ],
+    targetResidents: "Families, end-users, high-net-worth investors",
+    developmentPhase: "Delivered and under development phases available",
+    investmentType: "Freehold villas, Golden Visa eligible",
+  },
+
+  location: {
+    title: "Prime Location & Connectivity",
+    subtitle:
+      "The Oasis offers excellent connectivity to major destinations across Dubai",
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28927.923191038706!2d55.1649447743164!3d25.000442199999984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f7300507a7b9b%3A0x85b9da1be7db1999!2sThe%20Oasis%20by%20Emaar!5e0!3m2!1sen!2s!4v1772014136660!5m2!1sen!2s",
+    keyConnections: null,
+    features: [
+      {
+        icon: "FaMapMarkerAlt",
+        title: "Dubai Marina",
+        description: "15 minutes drive",
+      },
+      {
+        icon: "FaBuilding",
+        title: "Downtown Dubai",
+        description: "20 minutes drive",
+      },
+      {
+        icon: "FaCity",
+        title: "Dubai Hills Estate",
+        description: "10 minutes drive",
+      },
+      {
+        icon: "FaWind",
+        title: "Al Maktoum Airport",
+        description: "25 minutes drive",
+      },
+    ],
+  },
+
+  keyFeatures: {
+    title: "The Oasis Signature Elements",
+    subtitle:
+      "Experience luxury living with exclusive features designed for modern family life",
+    features: [
+      {
+        icon: "FaLeaf",
+        title: "Crystal Lagoon Living",
+        description:
+          "Crystal clear lagoons for swimming and water activities within the 100M sq. ft premium master community",
+      },
+      {
+        icon: "FaBuilding",
+        title: "Smart Home Features",
+        description:
+          "Premium Emaar finishing with integrated smart home technology including climate control and security",
+      },
+      {
+        icon: "FaCity",
+        title: "Prime Connectivity",
+        description:
+          "Easy access to Sheikh Zayed Road, Al Khail Road, and Sheikh Zayed bin Hamdan Road",
+      },
+    ],
+  },
+
+  propertyTypes: {
+    title: "Villa Collections at The Oasis",
+    subtitle:
+      "Discover our exclusive range of 4,5,6 bedroom luxury villas, each crafted with unique architectural excellence",
+    badgeText: "The Oasis",
+    types: [
+      {
+        name: "Classic Villa",
+        tag: "Timeless elegance with traditional architecture",
+        perks: [
+          "Traditional architecture with modern touches",
+          "Spacious living areas with private gardens",
+          "Premium Emaar finishes throughout",
+          "4,5,6 bedroom configurations available",
+        ],
+        image: "/palmiera_the_oasis/3.webp",
+      },
+      {
+        name: "Contemporary Villa",
+        tag: "Modern minimalist design for sophisticated living",
+        perks: [
+          "Modern minimalist design aesthetic",
+          "Floor-to-ceiling windows for natural light",
+          "Smart home ready with integrated technology",
+          "Rooftop terrace and private pool option",
+        ],
+        image: "/palmiera_the_oasis/4.webp",
+      },
+      {
+        name: "Chamfered Villa",
+        tag: "Architectural statement with angular design",
+        perks: [
+          "Unique angular architectural elements",
+          "Maximized natural light throughout",
+          "Large terrace areas for outdoor living",
+          "Customizable layouts available",
+        ],
+        image: "/palmiera_the_oasis/5.webp",
+      },
+    ],
+  },
+
+  masterPlan: {
+    title: "The Oasis Master Plan",
+    subtitle:
+      "A balanced mix of villas, lagoons, green spaces and community amenities",
+    items: [
+      {
+        icon: "FaBuilding",
+        title: "Luxury Villas",
+        description:
+          "4, 5 and 6 bedroom villas with private gardens and premium finishes",
+      },
+      {
+        icon: "FaWater",
+        title: "Crystal Lagoons",
+        description:
+          "Crystal clear lagoons for swimming and water activities",
+      },
+      {
+        icon: "FaTree",
+        title: "Golf & Green Spaces",
+        description:
+          "Landscaped parks and green corridors throughout the community",
+      },
+      {
+        icon: "FaLeaf",
+        title: "Parks & Recreation",
+        description:
+          "Multiple parks, jogging tracks and outdoor leisure facilities",
+      },
+      {
+        icon: "FaShoppingBag",
+        title: "Retail & Dining",
+        description:
+          "Convenient retail and dining options within the community",
+      },
+      {
+        icon: "FaStar",
+        title: "Community Clubhouse",
+        description:
+          "Premium clubhouse with exclusive amenities and social spaces",
+      },
+    ],
+  },
+
+  subCommunities: {
+    title: "Sub-Communities & Current Projects",
+    subtitle:
+      "Discover the villa sub-communities and phases within The Oasis by Emaar",
+    items: [
+      {
+        name: "Palmiera \u2013 The Oasis by Emaar",
+        description:
+          "Premium 4 & 5-bedroom waterfront villas with contemporary architecture, private gardens and access to crystal lagoons. Ideal for families in a gated environment.",
+        image: "/palmiera_the_oasis/1.webp",
+      },
+      {
+        name: "Palmiera 2 \u2013 The Oasis by Emaar",
+        description:
+          "Spacious 4-bedroom luxury villas with modern interiors and nature-inspired design, privacy and waterfront views.",
+        image: "/palmiera_the_oasis/2.webp",
+      },
+      {
+        name: "Palmiera 3 \u2013 The Oasis by Emaar",
+        description:
+          "Refined 4-bedroom villas with upgraded layouts, landscaped parks, water features and seamless access to master amenities.",
+        image: "/palmiera_the_oasis/3.webp",
+      },
+      {
+        name: "Mirage \u2013 The Oasis by Emaar",
+        description:
+          "5 & 6-bedroom villas with contemporary glass fa\u00e7ades, exclusivity and panoramic views for high-net-worth buyers.",
+        image: "/palmiera_the_oasis/4.webp",
+      },
+      {
+        name: "Lavita / Lavita Mansions \u2013 The Oasis by Emaar",
+        description:
+          "Ultra-luxury 6 & 7-bedroom mansions with grand architecture, double-height ceilings, private pools and premium finishes.",
+        image: "/palmiera_the_oasis/5.webp",
+      },
+      {
+        name: "Address Villas \u2013 Tierra \u2013 The Oasis by Emaar",
+        description:
+          "4, 5 & 6-bedroom branded villas with resort-style amenities, Address Hotels\u2019 elegance and concierge-style services.",
+        image: "/palmiera_the_oasis/6.webp",
+      },
+      {
+        name: "Palace Villas \u2013 Ostra \u2013 The Oasis by Emaar",
+        description:
+          "4 to 6-bedroom residences inspired by Palace Hotels & Resorts with regal architecture and premium waterfront positioning.",
+        image: "/palmiera_the_oasis/7.webp",
+      },
+    ],
+  },
+
+  clusters: null,
+
+  amenities: {
+    title: "World-Class Amenities",
+    subtitle:
+      "From sunrise workouts to sunset strolls along the water, The Oasis is designed to engage both your spirit and your senses",
+    items: [
+      {
+        title: "Swimming Pools",
+        description:
+          "Multiple pools including crystal lagoons and family pools",
+        image: "/palmiera_the_oasis/6.webp",
+      },
+      {
+        title: "Fitness Centers",
+        description:
+          "State-of-the-art gyms and wellness facilities for residents",
+        image: "/palmiera_the_oasis/7.webp",
+      },
+      {
+        title: "Parks & Green Spaces",
+        description: "Lush landscaped parks and recreational areas",
+        image: "/palmiera_the_oasis/2.webp",
+      },
+      {
+        title: "Retail Outlets",
+        description:
+          "Convenient shopping and dining options within the community",
+        image: "/palmiera_the_oasis/1.webp",
+      },
+      {
+        title: "Schools Nearby",
+        description:
+          "Premium educational institutions in close proximity",
+        image: "/palmiera_the_oasis/8.webp",
+      },
+      {
+        title: "Premium Clubhouse",
+        description:
+          "Exclusive clubhouse with premium amenities and social spaces",
+        image: "/palmiera_the_oasis/9.webp",
+      },
+    ],
+  },
+
+  whyChoose: {
+    title: "Why Choose The Oasis by Emaar",
+    subtitle:
+      "Reasons to invest and live in this master-planned villa community",
+    points: [
+      "Prime location in The Oasis with easy access to Sheikh Zayed Road and key Dubai destinations",
+      "Crystal lagoons and green spaces for a resort-style lifestyle",
+      "Luxury villas with 4\u20136 bedrooms and premium Emaar construction",
+      "Family-friendly community with schools, retail and amenities nearby",
+      "Strong investment potential with Emaar\u2019s track record and Golden Visa eligibility",
+      "Backed by Emaar Properties\u2019 vision for integrated, sustainable communities",
+    ],
+  },
+
+  investmentBenefits: {
+    title: "Investment Potential",
+    subtitle:
+      "The Oasis offers promising investment returns with strong capital appreciation potential",
+    benefits: [
+      {
+        icon: "FaChartLine",
+        title: "High Capital Appreciation",
+        description:
+          "Strong demand for luxury villas with high expected returns due to The Oasis master plan",
+      },
+      {
+        icon: "FaCrown",
+        title: "Emaar Reputation",
+        description:
+          "Developed by Dubai\u2019s most reliable developer with proven track record of value creation",
+      },
+      {
+        icon: "FaHandHoldingUsd",
+        title: "Golden Visa Eligibility",
+        description:
+          "High-value property qualifies for Dubai Golden Visa program for long-term residency",
+      },
+      {
+        icon: "FaUsers",
+        title: "Family Demand",
+        description:
+          "Family-friendly environment attracts long-term tenants and buyers",
+      },
+      {
+        icon: "FaLeaf",
+        title: "Sustainable Development",
+        description:
+          "Aligns with Dubai\u2019s 2040 urban vision for eco-friendly communities",
+      },
+      {
+        icon: "FaShieldAlt",
+        title: "Portfolio Diversification",
+        description:
+          "Premium real estate asset class for investment portfolio diversification",
+      },
+    ],
+  },
+
+  gallery: {
+    title: "Lifestyle Gallery",
+    description:
+      "Experience The Oasis by Emaar through our visual journey",
+    images: [
+      { src: "/palmiera_the_oasis/1.webp", alt: "The Oasis Dubai luxury villas exterior view" },
+      { src: "/palmiera_the_oasis/2.webp", alt: "Modern villa architecture at The Oasis" },
+      { src: "/palmiera_the_oasis/3.webp", alt: "Classic villa style with private garden" },
+      { src: "/palmiera_the_oasis/4.webp", alt: "Contemporary villa interior design" },
+      { src: "/palmiera_the_oasis/5.webp", alt: "Chamfered villa architectural details" },
+      { src: "/palmiera_the_oasis/6.webp", alt: "Community amenities and crystal lagoon" },
+      { src: "/palmiera_the_oasis/7.webp", alt: "Fitness and wellness facilities" },
+      { src: "/palmiera_the_oasis/8.webp", alt: "The Oasis master community view" },
+      { src: "/palmiera_the_oasis/9.webp", alt: "Premium clubhouse and social spaces" },
+    ],
+  },
+
+  faq: {
+    heading: "Frequently Asked Questions",
+    description:
+      "Quick answers to common questions about The Oasis by Emaar",
+    faqs: [
+      {
+        q: "What is The Oasis Dubai?",
+        a: "The Oasis Dubai is a vast, luxury master community developed by Emaar Properties, offering a mix of residential, commercial, and leisure spaces. It provides high-end living with modern villas, townhouses, and world-class amenities across a 100-million sq. ft master community.",
+      },
+      {
+        q: "Where is The Oasis Dubai located?",
+        a: "The Oasis Dubai is strategically located with access to major highways such as Sheikh Zayed Road, Al Khail Road, and Sheikh Zayed bin Hamdan Road. It is close to Dubai Marina, Downtown Dubai, and Dubai Hills Estate.",
+      },
+      {
+        q: "What types of properties are available in The Oasis Dubai?",
+        a: "The Oasis Dubai offers luxury 4,5,6 bedroom villas designed to suit different family sizes, lifestyle needs, and investment preferences. Each villa features spacious layouts, private gardens, and modern interiors.",
+      },
+      {
+        q: "Is The Oasis Dubai freehold?",
+        a: "Yes, eligible buyers can purchase properties in The Oasis Dubai as freehold property. This provides secure property rights for both UAE residents and international investors.",
+      },
+      {
+        q: "What is the price range for properties in The Oasis Dubai?",
+        a: "Property prices vary depending on type, size, and location within the community. Villas start from approximately AED 9.18M. For current prices and availability, please consult our team.",
+      },
+      {
+        q: "What payment plans are available?",
+        a: "Emaar offers flexible payment plans including 90/10 structures with post-handover payment options. The exact ratios and schedules depend on the specific launch and phase.",
+      },
+      {
+        q: "Can I get a Dubai Golden Visa if I invest in The Oasis Dubai?",
+        a: "Yes. Investors who meet the UAE\u2019s minimum property value requirement may qualify for the Dubai Golden Visa. It is recommended to check the latest criteria with legal advisors.",
+      },
+    ],
+  },
+
+  cta: {
+    sectionLabel: "YOUR LUXURY OPPORTUNITY",
+    title: "Ready to Own Your Dream Villa?",
+    description:
+      "Join the exclusive community of The Oasis homeowners. Limited 4,5,6 bedroom villas available with premium Emaar finishing and crystal lagoon access.",
+    ctaText: "Request Exclusive Villa Details",
+    footnote:
+      "Limited availability \u2022 Premium locations \u2022 Flexible payment plans available",
+  },
+
+  footer: {
+    brandName: "THE OASIS",
+    tagline:
+      "Luxury villas in Dubai\u2019s premier oasis community by Emaar Properties. Experience crystal lagoon living with world-class amenities.",
+  },
+
+  form: {
+    title: "The Oasis Inquiry",
+    subtitle: "Get details about luxury villas at The Oasis",
+    sourceLabel: "The Oasis Landing Page",
+  },
+
+  meta: {
+    title: "Oasis Community Villas: Luxury by Emaar Dubai.",
+    description:
+      "Discover the luxury Villas in The Oasis Dubai community by Emaar. Experience unmatched elegance and comfort in Dubai's premier luxury villas.",
+    keywords:
+      "emirates oasis villas, dubailand oasis, villa oasis, The Oasis Dubai, The Oasis Dubai Villas, Luxury homes in The Oasis Dubai, The Oasis community Dubai, Dubai luxury villas, 4-bedroom villas Dubai, off-plan villas Dubai, Emaar Properties",
+    url: "https://hsproperty.ae/communities/the-oasis",
+    ogImage:
+      "https://hsproperty.ae/_next/image?q=90&url=%2Flogos-icons%2FH%26S-Dubai-Logo-Black.png&w=3840",
+    schemas: {
+      place: {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        name: "The Oasis, Dubai",
+        url: "https://hsproperty.ae/communities/the-oasis",
+        description:
+          "The Oasis is a premier residential community in Dubai. Explore off-plan and ready properties with H&S Real Estate.",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Dubai",
+          addressRegion: "Dubai",
+          addressCountry: "AE",
+        },
+        containedInPlace: {
+          "@type": "City",
+          name: "Dubai",
+          containedInPlace: {
+            "@type": "Country",
+            name: "United Arab Emirates",
+          },
+        },
+        potentialAction: {
+          "@type": "ViewAction",
+          name: "View Properties in The Oasis",
+          target: "https://hsproperty.ae/communities/the-oasis",
+        },
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://hsproperty.ae" },
+            { "@type": "ListItem", position: 2, name: "Communities", item: "https://hsproperty.ae/communities" },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: "The Oasis",
+              item: "https://hsproperty.ae/communities/the-oasis",
+            },
+          ],
+        },
+      },
+      product: {
+        "@context": "https://schema.org",
+        "@type": "Product",
+        name: "Oasis Community Villas: Luxury by Emaar Dubai.",
+        description:
+          "Discover the luxury Villas in The Oasis Dubai community by Emaar.",
+        brand: { "@type": "Brand", name: "Emaar Properties" },
+        category: "Real Estate",
+        url: "https://hsproperty.ae/communities/the-oasis",
+        image:
+          "https://hsproperty.ae/_next/image?q=90&url=%2Flogos-icons%2FH%26S-Dubai-Logo-Black.png&w=3840",
+        offers: {
+          "@type": "AggregateOffer",
+          priceCurrency: "AED",
+          lowPrice: "9180000",
+          highPrice: "9180000",
+          offerCount: "1",
+          availability: "https://schema.org/PreOrder",
+          priceValidUntil: "2026-12-31",
+          seller: {
+            "@type": "RealEstateAgent",
+            name: "H&S Property",
+            telephone: "+971-04-345-4888",
+            areaServed: "Dubai",
+            url: "https://hsproperty.ae",
+          },
+        },
+      },
+      faq: {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "What is The Oasis Dubai?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "The Oasis Dubai is a vast, luxury master community developed by Emaar Properties, offering a mix of residential, commercial, and leisure spaces. It provides high-end living with modern villas, townhouses, and world-class amenities across a 100-million sq. ft master community.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Where is The Oasis Dubai located?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "The Oasis Dubai is strategically located with access to major highways such as Sheikh Zayed Road, Al Khail Road, and Sheikh Zayed bin Hamdan Road. It is close to Dubai Marina, Downtown Dubai, and Dubai Hills Estate.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What types of properties are available in The Oasis Dubai?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "The Oasis Dubai offers luxury 4,5,6 bedroom villas designed to suit different family sizes, lifestyle needs, and investment preferences. Each villa features spacious layouts, private gardens, and modern interiors.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Is The Oasis Dubai freehold?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes, eligible buyers can purchase properties in The Oasis Dubai as freehold property. This provides secure property rights for both UAE residents and international investors.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What is the price range for properties in The Oasis Dubai?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Property prices vary depending on type, size, and location within the community. Villas start from approximately AED 9.18M. For current prices and availability, please consult our team.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What payment plans are available?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Emaar offers flexible payment plans including 90/10 structures with post-handover payment options. The exact ratios and schedules depend on the specific launch and phase.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Can I get a Dubai Golden Visa if I invest in The Oasis Dubai?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes. Investors who meet the UAE\u2019s minimum property value requirement may qualify for the Dubai Golden Visa. It is recommended to check the latest criteria with legal advisors.",
+            },
+          },
+        ],
+      },
+    },
+  },
+
+  thankyou: {
+    communityName: "The Oasis by Emaar",
+    description:
+      "Your inquiry regarding The Oasis by Emaar has been successfully submitted. A property specialist will contact you within 24 hours with more information about luxury villas at The Oasis.",
+    returnLabel: "Return to The Oasis Page",
+  },
+};

@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hsproperty.ae/
+
+# Sitemaps
+Sitemap: https://hsproperty.ae/sitemap.xml
+

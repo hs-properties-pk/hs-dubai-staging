@@ -1,0 +1,635 @@
+{
+  "slug": "dubai-creek-harbour",
+  "name": "Dubai Creek Harbour",
+  "hero": {
+    "imageSrc": "/dubai-creek-harbour/12.webp",
+    "imageAlt": "Dubai Creek Harbour waterfront and skyline",
+    "badgeText": "Emaar Properties",
+    "title": "Dubai Creek Harbour",
+    "subtitle": "Nine districts, 6 sq km on historic Dubai Creek — waterfront towers, Creek Beach, and Ras Al Khor on your doorstep",
+    "description": "Emaar’s nine-district creek front: ready Island towers, Creek Beach, future Dubai Square retail, and Ras Al Khor sanctuary at the edge."
+  },
+  "overview": {
+    "title": "Dubai’s creek-side “future downtown”",
+    "paragraphs": [
+      "Dubai Creek Harbour (DCH) spans roughly six square kilometres along historic Dubai Creek near Ras Al Khor. It is a single master plan divided into nine districts — from the densest ready residential core on the Island to beachfront family neighbourhoods, parkland, a future retail city, and a sanctuary-facing edge.",
+      "The community pairs high-rise living with marinas, promenades, and extensive green planning (including a 700,000 sq m Central Park zone). It is developed by Emaar Properties as a long-horizon waterfront district — not a single tower, but a city district with phased handovers through the 2020s and beyond."
+    ],
+    "stats": [
+      {
+        "value": "9",
+        "label": "Districts",
+        "description": "From Island to Sanctuary"
+      },
+      {
+        "value": "~6 km²",
+        "label": "Scale",
+        "description": "Master-planned footprint"
+      },
+      {
+        "value": "Emaar",
+        "label": "Developer",
+        "description": "Emaar Properties"
+      },
+      {
+        "value": "Freehold",
+        "label": "Ownership",
+        "description": "All nationalities"
+      }
+    ],
+    "quickFacts": [
+      "~AED 2,500/sq ft benchmark; gross yields typically ~5.5–5.7%",
+      "Island District carries most ready towers — creek and skyline views, 1–4BR",
+      "Creek Metro (Green) ~10 min by car; Blue Line stop planned here by ~2030",
+      "Borders Ras Al Khor Wildlife Sanctuary — rare wetland-backed living"
+    ],
+    "visionTitle": "Vision & natural context",
+    "visionParagraphs": [
+      "Retail District is earmarked for major scale: over 820,000 sq m of retail and 800+ brands, with Dubai Square positioned among the world’s largest planned malls. Until that fully matures, daily shopping leans on on-site convenience and nearby Festival City, Dragon Mart, and Mirdif.",
+      "Creek Beach delivers a resort-style man-made beach, shallow water, and walkable promenades, linked to the mainland by three bridges — a strong draw for families comparing DCH to purely tower-only waterfront districts."
+    ],
+    "visionImage": "/dubai-creek-harbour/6.webp",
+    "visionImageAlt": "Dubai Creek Harbour parks and waterfront context"
+  },
+  "developer": {
+    "title": "Emaar Properties — Dubai Creek Harbour",
+    "paragraphs": [
+      "Dubai Creek Harbour is developed by Emaar Properties, the same group behind Downtown Dubai, Dubai Marina origins, and multiple master communities across the emirate. This page concerns the Ras Al Khor / Dubai Creek waterfront district — not Mina Rashid (a separate Emaar cruise-front community near Port Rashid).",
+      "Emaar’s role here is district-scale: phased residential towers, infrastructure, parks, and future commercial/retail anchors. Buyers weigh Emaar’s delivery track record, service-charge norms, and ongoing construction noise typical of a still-growing waterfront city."
+    ]
+  },
+  "lifestyle": {
+    "title": "Waterfront, beach, and park-life",
+    "subtitle": "Creek marina, Creek Beach, and Central Park scale green spaces — with honest notes on how “finished” the wider retail and metro story is today.",
+    "features": [
+      {
+        "icon": "FaWater",
+        "title": "Creek & marina",
+        "description": "Waterfront towers, boardwalks, and marina context along historic Dubai Creek"
+      },
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Creek Beach",
+        "description": "Man-made beach, shallow water, dining at Creek Beach Plaza, family weekends"
+      },
+      {
+        "icon": "FaTree",
+        "title": "Parks & cycling",
+        "description": "North Park, Park South, and the 700,000 sq m Central Park core — largest green zone in the master plan"
+      },
+      {
+        "icon": "FaLandmark",
+        "title": "Sanctuary adjacency",
+        "description": "Birdwatching and nature views toward Ras Al Khor Wildlife Sanctuary"
+      }
+    ],
+    "detailsTitle": "Schools, healthcare & daily life",
+    "detailsParagraphs": [
+      "DCH is still deepening on-site retail and healthcare; most families plan around short drives. Blossom Nursery is on-site (EYFS); Swiss International Scientific School is about five minutes by car; Deira International School (British, KHDA Good) about seven; Lycée Français International ~10 minutes.",
+      "Mediclinic Welcare Hospital (~12 min), Aster Clinic Nad Al Hamar (~8 min), and NMC Royal Hospital (~15 min) cover typical specialist and A&E needs. A community clinic is planned inside the master plan.",
+      "Groceries: Choithrams at Creek Beach on-site; full hypermarket runs to Carrefour Market at Dubai Festival City Mall (~10 min). Malls: Festival City (~10 min), Dragon Mart (~15 min), Mirdif City Centre (~20 min)."
+    ],
+    "targetResidents": "Families, end-user couples, Emaar-brand investors, and professionals who accept phased district maturity for creek and sanctuary context",
+    "developmentPhase": "Island and Creek Beach advanced; Central Park, retail city, and Blue Line station still rolling out over the decade",
+    "investmentType": "Freehold apartments, townhouses, and select off-plan launches (verify Oqood, fees, and payment plans per tower)"
+  },
+  "location": {
+    "title": "Location & connectivity",
+    "subtitle": "Ras Al Khor / Dubai Creek waterfront — strong road links to Downtown, the airport, and Festival City. Metro improves materially when the internal Blue Line station opens.",
+    "mapEmbedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14440.356389840326!2d55.355408204023725!3d25.20021765020736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f679fadfb563d%3A0x15e90d8fe66e02f2!2sRas%20Al%20Khor%20-%20Dubai%20Creek%20Harbour%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2s!4v1772093993291!5m2!1sen!2s",
+    "keyConnections": [
+      "Schools & nurseries: Blossom Nursery Creek Harbour (inside DCH, EYFS); Kids Kingdom Nursery ~5 min; Swiss International Scientific School ~5 min; Deira International School ~7 min; Lycée Français International Georges Pompidou ~10 min",
+      "Hospitals & clinics: Aster Clinic Nad Al Hamar ~8 min (GP/specialist); Mediclinic Welcare Hospital ~12 min (full hospital, A&E); NMC Royal Hospital ~15 min; community clinic planned inside DCH per master plan",
+      "Shopping: Choithrams Creek Beach (inside DCH); Dubai Festival City Mall ~10 min (200+ stores, IKEA, cinema); Carrefour Market Festival City ~10 min; Dragon Mart ~15 min; Mirdif City Centre ~20 min",
+      "Public transport: Creek Metro Station (Green Line) ~10 min by car today; Blue Line station planned inside Dubai Creek Harbour, widely quoted around ~2030 — likely positive for values when live",
+      "Bus Route 53 ~5 min access toward Gold Souq & Al Ghubaiba; X64 toward International City & Ras Al Khor; routes 55, 61, 62B, 64, 64A serve nearby corridors for city-wide connections",
+      "Roads: E311, E11, E44 and internal grid to Business Bay, Downtown Dubai, and Dubai International Airport"
+    ],
+    "features": [
+      {
+        "icon": "FaTrainSubway",
+        "title": "Creek Metro (Green)",
+        "description": "~10 min by car — Blue Line station planned inside DCH"
+      },
+      {
+        "icon": "FaPlane",
+        "title": "Dubai Airport (DXB)",
+        "description": "~15–20 min drive (traffic dependent)"
+      },
+      {
+        "icon": "FaShoppingBag",
+        "title": "Dubai Festival City",
+        "description": "~10 min — hypermarket & mall scale retail"
+      },
+      {
+        "icon": "FaTree",
+        "title": "Ras Al Khor Sanctuary",
+        "description": "Adjacent — birdwatching & protected wetland views"
+      }
+    ]
+  },
+  "keyFeatures": null,
+  "propertyTypes": {
+    "title": "Property types, sale & rental benchmarks",
+    "subtitle": "Indicative sale bands and anchor projects (2025 reporting from portals, broker research, DLD — refresh quarterly). Gross rental yields ~5.5–5.7% often cited for DCH. Illustrative annual rents: studio AED 65k–85k; 1BR AED 90k–130k; 2BR AED 140k–200k; 3BR AED 200k–300k. Off-plan watch-list: Altan (Creek Promenade, 1–3BR), Silva (Creek Beach), Creek Waters 2 (Island), Creek Palace (1–3BR + 3BR villas). Confirm live inventory, negotiation, and service charges before reserving.",
+    "badgeText": "DCH",
+    "types": [
+      {
+        "name": "1 bedroom apartment",
+        "tag": "Avg ~AED 1.82M • Creek Residences",
+        "perks": [
+          "Ready | 1–4BR | Creek & skyline views",
+          "Benchmark entry to Island District",
+          "Compare service charges versus newer launches"
+        ],
+        "image": "/dubai-creek-harbour/7.webp"
+      },
+      {
+        "name": "2 bedroom apartment",
+        "tag": "AED 2.5M – 3.5M • Creek Edge",
+        "perks": [
+          "Ready | Strong skyline-view product",
+          "Family-friendly mid-size layout",
+          "Check orientation and podium vs high-floor premium"
+        ],
+        "image": "/dubai-creek-harbour/8.webp"
+      },
+      {
+        "name": "3 bedroom apartment",
+        "tag": "Avg ~AED 5.93M • Harbour Views",
+        "perks": [
+          "Ready | Marina- / creek-facing options",
+          "Higher ticket — verify comparable resales",
+          "Often chosen by end-user upgraders"
+        ],
+        "image": "/dubai-creek-harbour/9.webp"
+      },
+      {
+        "name": "4 bedroom apartment",
+        "tag": "Avg ~AED 8.5M • Address Harbour Point",
+        "perks": [
+          "Ready | Hotel-branded living",
+          "Premium amenities stack",
+          "Hotel-brand fees and management — diligence essential"
+        ],
+        "image": "/dubai-creek-harbour/2.webp"
+      },
+      {
+        "name": "2 bedroom townhouse",
+        "tag": "Avg ~AED 5.21M • Creekside 18",
+        "perks": [
+          "Ready | Low-rise family format",
+          "Townhouse stock is rarer in DCH — liquidity differs from towers",
+          "Outdoor space vs apartment trade-offs"
+        ],
+        "image": "/dubai-creek-harbour/5.webp"
+      },
+      {
+        "name": "4 bedroom townhouse",
+        "tag": "Avg ~AED 7.29M • Creek Horizon",
+        "perks": [
+          "Ready | Park & creek sightlines depending on plot",
+          "Compare vs 4BR apartments on ticket and dues",
+          "Good match for buyers wanting vertical + horizontal hybrid feel"
+        ],
+        "image": "/dubai-creek-harbour/3.webp"
+      }
+    ]
+  },
+  "masterPlan": {
+    "title": "Nine districts of Dubai Creek Harbour",
+    "subtitle": "Replacing a simplified three-zone snapshot with the full nine-district framework buyers and search engines expect from a serious community guide.",
+    "items": [
+      {
+        "icon": "FaBuilding",
+        "title": "Island District",
+        "description": "Most developed heart of DCH — ready towers including Creek Residences, Creek Horizon, Harbour Views, Creek Edge, Creekside 18, Address Harbour Point, and Vida Residences. 1–4 bedroom apartments with skyline and creek views."
+      },
+      {
+        "icon": "FaUmbrellaBeach",
+        "title": "Creek Beach",
+        "description": "Resort-style beachfront with white sand, shallow water, and walkable promenades; popular with families. Three bridges connect to mainland dining and Creek Beach Plaza."
+      },
+      {
+        "icon": "FaWater",
+        "title": "Canal District",
+        "description": "Mixed-use connector between island neighbourhoods and mainland — canal-side retail, dining, and waterfront walkways."
+      },
+      {
+        "icon": "FaBriefcase",
+        "title": "Business District",
+        "description": "Planned commercial hub — offices, hotels, and corporate facilities aimed at professionals working in or beside the community."
+      },
+      {
+        "icon": "FaTree",
+        "title": "North Park",
+        "description": "Green residential district — landscaped parkland, residential towers, cycling tracks, and outdoor leisure geared to families."
+      },
+      {
+        "icon": "FaLeaf",
+        "title": "Central Park",
+        "description": "Community core with roughly 700,000 sq m of parks and green space — the largest consolidated green zone in the Dubai Creek Harbour master plan."
+      },
+      {
+        "icon": "FaHome",
+        "title": "Park South",
+        "description": "Southern residential cluster — apartments and townhouses with park and creek perspectives depending on asset."
+      },
+      {
+        "icon": "FaStore",
+        "title": "Retail District",
+        "description": "Planned ~820,000 sq m of retail hosting 800+ brands; future anchor Dubai Square — among the world’s largest planned malls."
+      },
+      {
+        "icon": "FaLandmark",
+        "title": "Sanctuary District",
+        "description": "Nature and leisure edge beside Ras Al Khor Wildlife Sanctuary (620 hectares; 450+ species). Strong birdwatching and biophilic views — a signature differentiator for DCH."
+      }
+    ]
+  },
+  "subCommunities": {
+    "title": "Districts & Neighbourhoods",
+    "subtitle": "Dubai Creek Harbour is organised across nine distinct districts, each with a defined role — from the residential energy of Island District and the leisure frontage of Creek Beach, to the green calm of Central Park and the protected natural outlook of Sanctuary District.",
+    "items": [
+      {
+        "name": "Island District",
+        "description": "Highest concentration of ready towers and creek skyline energy.",
+        "image": "/dubai-creek-harbour/2.webp"
+      },
+      {
+        "name": "Creek Beach",
+        "description": "Family beach weekends and low-rise leisure frontage.",
+        "image": "/dubai-creek-harbour/5.webp"
+      },
+      {
+        "name": "Canal District",
+        "description": "Canal-side walks linking water to retail and residences.",
+        "image": "/dubai-creek-harbour/1.webp"
+      },
+      {
+        "name": "Business District",
+        "description": "Future office and hospitality spine as commercial phases deliver.",
+        "image": "/dubai-creek-harbour/10.webp"
+      },
+      {
+        "name": "North Park",
+        "description": "Greenery-forward residential with cycling and outdoor routines.",
+        "image": "/dubai-creek-harbour/4.webp"
+      },
+      {
+        "name": "Central Park",
+        "description": "The district-scale green lung at the heart of the master plan.",
+        "image": "/dubai-creek-harbour/11.webp"
+      },
+      {
+        "name": "Park South",
+        "description": "Southern homes opening toward parks and selective creek views.",
+        "image": "/dubai-creek-harbour/6.webp"
+      },
+      {
+        "name": "Retail District",
+        "description": "Tomorrow’s mega-retail footprint — including Dubai Square.",
+        "image": "/dubai-creek-harbour/9.webp"
+      },
+      {
+        "name": "Sanctuary District",
+        "description": "Protected sanctuary outlooks and quieter nature-facing living.",
+        "image": "/dubai-creek-harbour/3.webp"
+      }
+    ]
+  },
+  "clusters": null,
+  "amenities": {
+    "title": "World-class amenities",
+    "subtitle": "Tower-level pools and gyms plus district parks, promenades, and growing creek-side retail.",
+    "items": [
+      {
+        "title": "Swimming & fitness",
+        "description": "Pools, gyms, and wellness typical of newer Emaar towers",
+        "image": "/dubai-creek-harbour/4.webp"
+      },
+      {
+        "title": "Parks & promenades",
+        "description": "Central Park scale planning and waterfront walking",
+        "image": "/dubai-creek-harbour/11.webp"
+      },
+      {
+        "title": "Marina & creek access",
+        "description": "Marina context, boardwalks, and water outlooks",
+        "image": "/dubai-creek-harbour/1.webp"
+      },
+      {
+        "title": "Retail & dining",
+        "description": "Creek Beach Plaza and expanding F&B — mega-mall future in Retail District",
+        "image": "/dubai-creek-harbour/10.webp"
+      },
+      {
+        "title": "Family play",
+        "description": "Beach, splash zones, and kids’ zones clustered at Creek Beach",
+        "image": "/dubai-creek-harbour/5.webp"
+      },
+      {
+        "title": "Security & access",
+        "description": "Gated tower norms, concierge patterns, controlled parking",
+        "image": "/dubai-creek-harbour/12.webp"
+      }
+    ]
+  },
+  "whyChoose": {
+    "title": "Why Dubai Creek Harbour — pros & candid trade-offs",
+    "subtitle": "Waterfront growth story with Emaar backing — plus what still behaves like a district under construction.",
+    "points": [
+      "Nine clear districts (not a vague “Creek Island only” shorthand) — easier to explain supply, views, and future noise pockets to clients",
+      "Nature hook: Ras Al Khor Wildlife Sanctuary adjacency is unusual for a major Dubai master community — strong for branding and certain orientations",
+      "Indicative yields ~5.5–5.7% and ~AED 2,500/sq ft benchmarks often cited — competitive vs many purely Gulf-front districts",
+      "Creek Beach and Central Park scale greenery address family objections about “all towers, no soul”",
+      "Blue Line station planned inside DCH (~2030) is a credible future mobility and valuation catalyst — not marketing fluff if RTA timelines hold",
+      "Straight talk: mega-retail (Dubai Square) is not fully realised — day-to-day shopping still blends on-site convenience with Festival City runs",
+      "Straight talk: Creek Metro today is a ~10-minute drive — budget car or ride-hail unless you stage life around future Blue Line delivery",
+      "Straight talk: construction continues for years; expect site activity, temporary views changing, and evolving traffic patterns",
+      "Straight talk: service charges and hotel-branded towers (e.g. Address) need line-by-line comparison — gross rent is not net yield"
+    ]
+  },
+  "investmentBenefits": {
+    "title": "Investment & market snapshot",
+    "subtitle": "High-level market telemetry buyers expect on portals — always re-verify with DLD, Bayut, Property Finder, and your broker. Sources commonly cited: Better Homes, Engel & Völkers, Kredium, DLD.",
+    "benefits": [
+      {
+        "icon": "FaHandHoldingUsd",
+        "title": "~5.5–5.7% rental yield",
+        "description": "Gross yields often quoted for DCH in 2025 research — net yield depends on fees, furniture, and voids"
+      },
+      {
+        "icon": "FaRulerCombined",
+        "title": "~AED 2,500 / sq ft",
+        "description": "Average asking / transacted psf band frequently referenced for the district"
+      },
+      {
+        "icon": "FaChartLine",
+        "title": "~+28% price growth",
+        "description": "2023–2025 capital growth figures cited in third-party reports — not a forward guarantee"
+      },
+      {
+        "icon": "FaCity",
+        "title": "~4,227 sales (12 months)",
+        "description": "Transaction count band from market releases — confirms liquidity vs one-off launches"
+      },
+      {
+        "icon": "FaKey",
+        "title": "Freehold titles",
+        "description": "Eligible nationalities secure full ownership in line with Dubai freehold norms"
+      },
+      {
+        "icon": "FaBuilding",
+        "title": "Emaar liquidity premium",
+        "description": "Brand resale depth often stronger than comparable single-developer islands"
+      },
+      {
+        "icon": "FaLeaf",
+        "title": "Sanctuary scarcity factor",
+        "description": "Nature-exposed inventory can trade at premia to internal-facing stacks"
+      },
+      {
+        "icon": "FaTrainSubway",
+        "title": "Embedded metro optionality",
+        "description": "Future on-site Blue Line reduces single-point reliance on Green Line Creek Station"
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Dubai Creek Harbour gallery",
+    "description": "Creek skyline, Island towers, Creek Beach, and sanctuary-edge context",
+    "images": [
+      {
+        "src": "/dubai-creek-harbour/1.webp",
+        "alt": "Dubai Creek Harbour waterfront view"
+      },
+      {
+        "src": "/dubai-creek-harbour/2.webp",
+        "alt": "Island District residential towers"
+      },
+      {
+        "src": "/dubai-creek-harbour/3.webp",
+        "alt": "Dubai Creek Harbour architecture"
+      },
+      {
+        "src": "/dubai-creek-harbour/4.webp",
+        "alt": "Pools and amenities"
+      },
+      {
+        "src": "/dubai-creek-harbour/5.webp",
+        "alt": "Creek Beach"
+      },
+      {
+        "src": "/dubai-creek-harbour/6.webp",
+        "alt": "Community wellness facilities"
+      },
+      {
+        "src": "/dubai-creek-harbour/7.webp",
+        "alt": "Apartment living"
+      },
+      {
+        "src": "/dubai-creek-harbour/8.webp",
+        "alt": "Skyline views"
+      },
+      {
+        "src": "/dubai-creek-harbour/9.webp",
+        "alt": "Waterfront residences"
+      },
+      {
+        "src": "/dubai-creek-harbour/10.webp",
+        "alt": "Retail and dining"
+      },
+      {
+        "src": "/dubai-creek-harbour/11.webp",
+        "alt": "Landscaping and parks"
+      },
+      {
+        "src": "/dubai-creek-harbour/12.webp",
+        "alt": "Dubai Creek Harbour skyline"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Frequently asked questions",
+    "description": "Prices, nine districts, yields, transport, Dubai Harbour vs DCH, freehold, and lifestyle — aligned with how people actually search.",
+    "faqs": [
+      {
+        "q": "What is the average property price in Dubai Creek Harbour?",
+        "a": "Average price per square foot is approximately AED 2,500 as of 2025, with about 28% growth since 2023 often cited in market reporting. One-bedroom apartments average around AED 1.82M; three-bedroom apartments around AED 5.93M. Townhouses span roughly AED 5.21M (2BR) to AED 7.29M (4BR). Always confirm live listings, negotiation, and DLD-transacted comps."
+      },
+      {
+        "q": "What are the 9 districts of Dubai Creek Harbour?",
+        "a": "Dubai Creek Harbour divides into: Island District (most developed, ready towers); Creek Beach (man-made beach, family-oriented); Canal District (mixed-use waterfront); Business District (offices and corporate); North Park (green residential); Central Park (~700,000 sq m green core); Park South (residential); Retail District (~820,000 sq m retail, future Dubai Square); and Sanctuary District (adjacent to Ras Al Khor Wildlife Sanctuary)."
+      },
+      {
+        "q": "What is the rental yield in Dubai Creek Harbour?",
+        "a": "Gross rental yields of approximately 5.5% to 5.7% are widely quoted for 2025 — strong for a creek-front Emaar district. Studios and 1-bedroom apartments often show the highest headline yields, but net returns depend on service charges, furniture packs, and vacancy."
+      },
+      {
+        "q": "Is Dubai Creek Harbour family-friendly?",
+        "a": "Yes for many families: Creek Beach offers a guarded man-made beach with shallow water; the master plan includes extensive parks, cycling tracks, play areas, and Blossom Nursery on-site. Swiss International Scientific School and Deira International School are within roughly 5–7 minutes by car — plan school runs realistically alongside tower living."
+      },
+      {
+        "q": "How do I get to Dubai Creek Harbour by public transport?",
+        "a": "Today the nearest metro is Creek Station on the Green Line, about 10 minutes by car. Buses include Route 53 (toward Gold Souq / Al Ghubaiba) and X64 (toward International City / Ras Al Khor), plus 55, 61, 62B, 64, and 64A in nearby corridors. A dedicated Blue Line station is planned inside Dubai Creek Harbour, widely expected around 2030 — a meaningful upgrade when operational."
+      },
+      {
+        "q": "What is the difference between Dubai Creek Harbour and Dubai Harbour?",
+        "a": "Dubai Creek Harbour sits on historic Dubai Creek in Ras Al Khor, developed by Emaar, with sanctuary-integrated waterfront living and nine planned districts. Dubai Harbour is a separate Meraas-led coastal scheme near Palm Jumeirah focused on cruise terminals and a luxury marina. Different developers, geographies, and product mixes — do not confuse the names in portals or mortgage paperwork."
+      },
+      {
+        "q": "Is Dubai Creek Harbour freehold?",
+        "a": "Yes. Dubai Creek Harbour is freehold for eligible buyers — all nationalities can purchase with full ownership rights subject to standard Dubai Land Department processes and developer requirements."
+      },
+      {
+        "q": "What is Dubai Creek Harbour?",
+        "a": "A six square kilometre, nine-district Emaar master community on Dubai Creek combining residential towers, townhouses, Creek Beach, extensive parks, future mega-retail, and business zones beside Ras Al Khor Wildlife Sanctuary."
+      },
+      {
+        "q": "Is Dubai Creek Harbour the same as Dubai Creek?",
+        "a": "No. Dubai Creek is the natural waterway; Dubai Creek Harbour is a new-build district developed along a section of that creek near Ras Al Khor."
+      },
+      {
+        "q": "What types of homes are available?",
+        "a": "Most inventory is apartments (studios through four-bedroom layouts and penthouses) on the Island and beach zones, plus select townhouse clusters such as Creekside 18 and Creek Horizon. Off-plan towers continue to launch across creek and beach frontages."
+      },
+      {
+        "q": "Is it good for waterfront living?",
+        "a": "Yes — marinas, promenades, and direct creek or beach frontage are design pillars. Choose floor and orientation carefully; sanctuary vs internal vs construction-face can feel like different communities in the same postcode."
+      },
+      {
+        "q": "Are there off-plan projects available?",
+        "a": "Yes — launches such as Altan, Silva, Creek Waters 2, and Creek Palace typify the current cycle. Payment plans, handover dates, and incentives vary; verify RERA registration and escrow before booking."
+      },
+      {
+        "q": "Who is developing Dubai Creek Harbour?",
+        "a": "Emaar Properties leads Dubai Creek Harbour as a district-scale development, with government-related coordination on infrastructure and transport master planning."
+      },
+      {
+        "q": "How easy is it to reach other parts of Dubai?",
+        "a": "Sheikh Zayed Road, Ras Al Khor Road, and Al Khail connections reach Downtown, Business Bay, DIFC, and Dubai International Airport within typical 15–25 minute windows depending on traffic and exact tower."
+      },
+      {
+        "q": "Can visitors access Dubai Creek Harbour?",
+        "a": "Yes — promenades, Creek Beach pay areas, and retail/dining clusters welcome visitors even when residential zones remain controlled for residents."
+      }
+    ]
+  },
+  "cta": {
+    "sectionLabel": "YOUR WATERFRONT OPPORTUNITY",
+    "title": "Ready to shortlist Dubai Creek Harbour?",
+    "description": "Get live availability, payment plans, comparable sales, and straight guidance on orientation, fees, and handover risk — Island, Beach, or Sanctuary-facing.",
+    "ctaText": "Schedule a viewing",
+    "footnote": "Ready & off-plan • Emaar communities • RERA-registered support"
+  },
+  "footer": {
+    "brandName": "DUBAI CREEK HARBOUR",
+    "tagline": "Nine districts on historic Dubai Creek by Emaar Properties — towers, Creek Beach, Central Park scale green space, and sanctuary views."
+  },
+  "form": {
+    "title": "Dubai Creek Harbour inquiry",
+    "subtitle": "Tell us budget, timeline, and preferred district — we’ll match towers.",
+    "sourceLabel": "Dubai Creek Harbour landing page"
+  },
+  "meta": {
+    "title": "Creek Harbour By Emaar Community | Waterfront Community | HS Property",
+    "description": "Discover Dubai Creek Harbour by Emaar, a stunning waterfront community that combines luxury living with breathtaking views. Explore modern apartments, vibrant harbours, and Dubai Creek Park.",
+    "keywords": "dubai creek harbour, dch dubai, dubai creek harbour price, dubai creek harbour districts, dubai creek harbour vs dubai harbour, creek beach dubai, island district dubai creek harbour, ras al khor property, emaar creek harbour, dubai creek harbour metro, dubai square mall, freehold dubai creek",
+    "url": "https://hsproperty.ae/communities/dubai-creek-harbour",
+    "ogImage": "https://hsproperty.ae/dubai-creek-harbour/12.webp",
+    "schemas": {
+      "place": {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        "name": "Dubai Creek Harbour, Dubai",
+        "url": "https://hsproperty.ae/communities/dubai-creek-harbour",
+        "description": "Nine-district, ~6 sq km Emaar waterfront community on Dubai Creek: Island District, Creek Beach, Canal, Business, North Park, Central Park, Park South, Retail (future Dubai Square), Sanctuary (Ras Al Khor). Indicative ~AED 2,500/sq ft and strong rental yields often quoted.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE"
+        },
+        "containedInPlace": {
+          "@type": "City",
+          "name": "Dubai",
+          "containedInPlace": {
+            "@type": "Country",
+            "name": "United Arab Emirates"
+          }
+        },
+        "potentialAction": {
+          "@type": "ViewAction",
+          "name": "View Dubai Creek Harbour on HS Property",
+          "target": "https://hsproperty.ae/communities/dubai-creek-harbour"
+        },
+        "breadcrumb": {
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://hsproperty.ae"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Communities",
+              "item": "https://hsproperty.ae/communities"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "Dubai Creek Harbour",
+              "item": "https://hsproperty.ae/communities/dubai-creek-harbour"
+            }
+          ]
+        }
+      },
+      "product": {
+        "@context": "https://schema.org",
+        "@type": "ResidentialComplex",
+        "name": "Dubai Creek Harbour",
+        "description": "Emaar Properties master community on Dubai Creek with nine districts, Creek Beach, Central Park green core, Island District towers (Creek Residences, Creek Edge, Harbour Views, Address Harbour Point, Vida, etc.), future Dubai Square retail, and Sanctuary views toward Ras Al Khor Wildlife Sanctuary.",
+        "url": "https://hsproperty.ae/communities/dubai-creek-harbour",
+        "image": "https://hsproperty.ae/dubai-creek-harbour/12.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Dubai Creek Harbour",
+          "addressRegion": "Dubai",
+          "addressCountry": "AE",
+          "streetAddress": "Ras Al Khor / Dubai Creek"
+        },
+        "developer": {
+          "@type": "Organization",
+          "name": "Emaar Properties",
+          "url": "https://www.emaar.com"
+        },
+        "numberOfBedrooms": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "amenityFeature": [
+          "Creek Beach",
+          "Island District waterfront towers",
+          "Central Park green zone",
+          "Ras Al Khor Wildlife Sanctuary proximity",
+          "Creek Marina & promenades",
+          "Future Dubai Square retail",
+          "Freehold ownership"
+        ],
+        "telephone": "+971-4-345-4888"
+      }
+    }
+  },
+  "thankyou": {
+    "communityName": "Dubai Creek Harbour",
+    "description": "Your Dubai Creek Harbour inquiry is received. A waterfront specialist will respond shortly with tower-specific options and data-backed guidance.",
+    "returnLabel": "Back to Dubai Creek Harbour"
+  }
+}

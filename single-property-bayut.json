@@ -1,0 +1,177 @@
+{
+  "id": 14395329,
+  "title": "Below the market | Lagoon & Pool View | High Floor",
+  "reference_number": "106504-xc74GS",
+  "purpose": "for-sale",
+  "type": {
+    "main": "Residential",
+    "sub": "Apartments"
+  },
+  "price": 1259999,
+  "area": {
+    "built_up": 597.72,
+    "plot": null,
+    "unit": "sqft"
+  },
+  "details": {
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "is_furnished": true,
+    "completion_status": "completed",
+    "completion_details": {
+      "percentage": null,
+      "start_date": "",
+      "completion_date": ""
+    }
+  },
+  "description": "MBZ Vision Properties proudly presents this <strong>beautifully furnished 1-bedroom apartment</strong> in <strong>Azizi Riviera 41</strong>, located in the heart of <strong>Meydan One</strong>. \nOffering stunning <strong>lagoon and pool views</strong>, this residence blends French Mediterranean charm with contemporary urban living—perfect for professionals, couples, and investors seeking style, comfort, and strong rental potential. \n\n\nProperty Details<ul><li><strong>1 Bedroom | 2 Bathrooms</strong></li><li><strong>Size:</strong> 597.72 Sq. Ft. </li><li>Open-plan kitchen layout</li><li>Fully furnished</li><li>Fully equipped kitchen</li><li>Built-in wardrobes</li><li>Bright interiors with abundant natural light</li><li>Spacious balcony with lagoon & pool views</li><li><strong>Sale Price: AED 1,259,999</strong></li><li>Ready to move in</li></ul>\n World-Class Amenities<ul><li>Infinity-edge swimming pool</li><li>Fully equipped gym</li><li>24/7 security & concierge services</li><li>Covered parking</li><li>Retail outlets & dining options</li><li>Landscaped gardens & walking paths</li><li>Children’s play area</li></ul>\n Prime Location – Meydan One<ul><li>10 minutes to <strong>Downtown Dubai</strong> & <strong>Burj Khalifa</strong></li><li>5 minutes to the upcoming <strong>Meydan One Mall</strong></li><li>15 minutes to <strong>Dubai International Airport</strong></li><li>Easy access to Al Khail Road & Business Bay</li></ul>\n About Azizi RivieraInspired by the charm of the French Riviera, Azizi Riviera is a vibrant waterfront community combining European-style architecture with Dubai’s dynamic lifestyle—making it one of the most desirable addresses for both end-users and investors. \n\nWhy MBZ Vision Properties?At MBZ Vision Properties, we provide a white-glove real estate experience with tailored solutions and seamless transactions—helping you secure the perfect home or investment in Dubai. \n<strong>Contact us today to schedule a viewing. </strong>\nYour waterfront lifestyle awaits",
+  "location": {
+    "country": {
+      "id": 1,
+      "name": "UAE"
+    },
+    "city": {
+      "id": 2,
+      "name": "Dubai"
+    },
+    "community": {
+      "id": 43,
+      "name": "Meydan"
+    },
+    "sub_community": {
+      "id": 2331,
+      "name": "Meydan One"
+    },
+    "cluster": {
+      "id": 5081,
+      "name": "Azizi Riviera"
+    },
+    "coordinates": {
+      "lat": 25.172954849148,
+      "lng": 55.311464588118
+    }
+  },
+  "agency": {
+    "id": 106504,
+    "name": "MBZ Vision Properties",
+    "logo_url": "https://bayut-production.s3.eu-central-1.amazonaws.com/image/762618274/c049b872bc1949999e0f8d4275394762",
+    "licenses": [
+      {
+        "number": "47848",
+        "authority": "RERA"
+      }
+    ],
+    "product": "premium",
+    "performance": null,
+    "product_score": 2
+  },
+  "agent": {
+    "id": 2677702,
+    "name": "Saqib Rasool Rind",
+    "contact": {
+      "mobile": "+971528532984",
+      "phone": "",
+      "whatsapp": "971545695868",
+      "proxy_phone": "+97144381543"
+    }
+  },
+  "media": {
+    "cover_photo": null,
+    "photo_count": 14,
+    "photos": [
+      "https://images.bayut.com/thumbnails/823678597-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678725-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678737-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678729-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678724-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678596-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678727-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678735-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678738-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678733-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678732-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678736-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678720-800x600.jpeg",
+      "https://images.bayut.com/thumbnails/823678722-800x600.jpeg"
+    ],
+    "cover_video": "",
+    "video_count": 0,
+    "videos": [],
+    "panorama_count": 0
+  },
+  "verification": {
+    "is_verified": true,
+    "verified_at": "2026-04-08 05:31:38",
+    "truchecked_at": "2026-04-08 05:31:38"
+  },
+  "legal": {
+    "permit_number": "71399712229",
+    "dld_property_sk": "14395329",
+    "dld_building_nk": "tabu-399696014"
+  },
+  "project": {
+    "id": null,
+    "title": null,
+    "completion_status": null,
+    "completion_details": {
+      "start_date": "",
+      "completion_date": "",
+      "completion_percentage": null
+    },
+    "developer": {
+      "id": null,
+      "name": null
+    }
+  },
+  "contact_methods": [
+    "whatsapp",
+    "sms",
+    "email",
+    "call"
+  ],
+  "meta": {
+    "created_at": "2026-02-25 08:38:56",
+    "updated_at": "2026-04-30 11:31:38",
+    "reactivated_at": "2026-02-25 08:38:56",
+    "approved_at": "2026-02-25 08:38:56",
+    "touched_at": "2026-04-30 11:38:05",
+    "url": "https://www.bayut.com/property/details-14395329.html",
+    "product": "superhot",
+    "product_label": "default",
+    "source_id": 1
+  },
+  "city_level_score": 1,
+  "indy_score": 182,
+  "location_purpose_tier": 2,
+  "score": 75,
+  "amenities": [],
+  "floor_plan": {
+    "2d_images": [
+      "https://images.bayut.com/thumbnails/800940204-800x600.jpeg"
+    ],
+    "3d_images": [
+      "https://images.bayut.com/thumbnails/800940205-800x600.jpeg"
+    ],
+    "models": [
+      "https://sketchfab.com/models/ddd3afe99c4a42f493d49c7038b74ccb/embed"
+    ]
+  },
+  "payment_plans": [],
+  "offplan_details": {
+    "sale_type": "",
+    "original_price": null,
+    "paid_price": null,
+    "dld_waiver": ""
+  },
+  "building_info": {
+    "name": "Azizi Riviera 41",
+    "floors": 14,
+    "total_parking_space": 242,
+    "rooms": 0,
+    "total_building_area": 291106.95,
+    "shops": 0,
+    "offices": 0,
+    "swimming_pools": 1,
+    "elevators": 4
+  }
+}

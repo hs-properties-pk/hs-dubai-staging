@@ -1,0 +1,546 @@
+export const minaRashidData = {
+  slug: "mina-rashid-by-emaar",
+  name: "Mina Rashid by Emaar",
+
+  hero: {
+    imageSrc: "/mina-rashid/hero.webp",
+    imageAlt: "Mina Rashid Marina Waterfront",
+    badgeText: "Emaar Properties",
+    title: "Mina Rashid by Emaar",
+    subtitle: "Waterfront Community in Port Rashid Dubai",
+    description:
+      "Discover the transformation of historic Port Rashid into Dubai\u2019s premier waterfront community. Experience marina living redefined with luxury residences by Emaar.",
+  },
+
+  overview: {
+    title: "Mina Rashid by Emaar",
+    paragraphs: [
+      "Mina Rashid by Emaar is a master-planned waterfront residential community developed along Dubai\u2019s historic Port Rashid coastline. Commonly known as Mina Rashid Marina or Rashid Yachts & Marina, the community features a full-service marina, residential buildings, hotels, and retail spaces overlooking the Arabian Gulf.",
+      "Planned by Emaar, Mina Rashid offers modern seaside apartments, yacht berths, and a promenade-style lifestyle while remaining close to Old Dubai, Deira, and Bur Dubai. When people refer to the Mina Rashid project, they typically mean the entire master development rather than a single residential building. Buyers in Mina Rashid can choose between marina-facing apartments, residences overlooking landscaped internal park areas, and buildings located near the central pool and retail promenade in Port Rashid Dubai.",
+    ],
+    stats: [
+      { value: "Prime", label: "Waterfront Location", description: "Historic Port Rashid" },
+      { value: "Emaar", label: "Developer", description: "Trusted brand" },
+      { value: "Full-Service", label: "Marina", description: "Yacht berths available" },
+      { value: "Modern", label: "Apartments", description: "1-3 Bedrooms + Penthouses" },
+    ],
+    quickFacts: [
+      "Full-service marina with yacht berths",
+      "Modern mid-rise apartment buildings",
+      "Canal-style pool and waterfront promenade",
+      "Proximity to cruise terminals",
+    ],
+    visionTitle: "From Historic Port to Modern Marina (Heritage / Throwback)",
+    visionParagraphs: [
+      "Before becoming Mina Rashid Emaar, this area was famous simply as Port Rashid a key commercial and passenger port for Dubai. Cruise ships, cargo, and ferry passengers all used this hub for decades.",
+      "Dubai plans to change older waterfront industrial zones into mixed-use neighborhoods. The change into a marina community is part of this plan. Cruise terminals, the historic QE2 ship nearby, and the older dock infrastructure give Mina Rashid a clear throwback feel. You do not see this in newer, man-made islands.",
+    ],
+    visionImage: "/mina-rashid/2.webp",
+    visionImageAlt: "Historic Port Rashid transformation to Mina Rashid",
+  },
+
+  developer: {
+    title: "Emaar Mina Rashid \u2013 Developer Profile",
+    paragraphs: [
+      "Emaar Mina Rashid reflects the vision of Emaar, one of Dubai\u2019s most established and trusted real estate developers. Known for delivering master-planned communities across the city, Emaar brings its expertise in design, infrastructure, and community development to Mina Rashid.",
+      "The development follows Emaar\u2019s focus on quality construction, well-planned public spaces, and sustainable long-term value, adding confidence for buyers considering Mina Rashid by Emaar.",
+    ],
+  },
+
+  lifestyle: {
+    title: "Mina Rashid Marina & Waterfront Lifestyle",
+    subtitle: "Living in Mina Rashid Marina is built around direct contact with the water",
+    features: [
+      {
+        icon: "FaShip",
+        title: "Full-Service Marina",
+        description:
+          "Yacht berths for various vessel sizes with complete marina services at Mina Rashid Marina",
+      },
+      {
+        icon: "FaUmbrellaBeach",
+        title: "Canal-Style Pool",
+        description:
+          "Large central pool with cabanas, sun decks, and resort-style lounging areas",
+      },
+      {
+        icon: "FaCompass",
+        title: "Waterfront Promenade",
+        description:
+          "Scenic boardwalk for evening strolls along the marina with dining and retail",
+      },
+      {
+        icon: "FaAnchor",
+        title: "Cruise Terminal Access",
+        description:
+          "Proximity to cruise terminals adding international travel atmosphere",
+      },
+    ],
+    detailsTitle: "Everyday Living: Residents, Lifestyle & Services",
+    detailsParagraphs: [
+      "Mina Rashid Marina is the centerpiece of the community and defines its waterfront lifestyle. Designed as a modern yacht marina, the area includes berthing facilities, a marina promenade, and leisure-focused open spaces that enhance everyday living.",
+      "Residents enjoy scenic sea views, pedestrian-friendly walkways, and easy access to dining and leisure venues along the waterfront. As part of the wider Port Rashid redevelopment, Mina Rashid Marina combines relaxed coastal living with the convenience of a centrally located Dubai community.",
+    ],
+    targetResidents: "Professionals, families, investors",
+    developmentPhase: "Multi-phase, some complete, others off-plan",
+    investmentType: "Freehold, off-plan opportunities available",
+  },
+
+  location: {
+    title: "Location & Connectivity \u2013 Port Rashid Dubai",
+    subtitle:
+      "Located in Port Rashid Dubai, Mina Rashid by Emaar benefits from excellent connectivity to major destinations across the city.",
+    mapEmbedUrl:
+      "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14432.87154107616!2d55.28682864670109!3d25.26325489100919!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f43d555eed1c3%3A0x8862f7c1ce1313d6!2sEmaar%20Mina%20Rashid%20Yacht%20%26%20Marina!5e0!3m2!1sen!2s!4v1769595704566!5m2!1sen!2s",
+    keyConnections: [
+      "Easy access to Sheikh Rashid Road.",
+      "Close to Old Dubai, Deira, and Bur Dubai.",
+      "Short drive to Downtown Dubai.",
+      "Convenient access to Dubai International Airport.",
+    ],
+    features: [
+      { icon: "FaMapMarkerAlt", title: "Downtown Dubai", description: "10-15 minute drive" },
+      { icon: "FaCompass", title: "Sheikh Zayed Road", description: "Direct access" },
+      { icon: "FaBuilding", title: "DIFC", description: "Short commute" },
+      { icon: "FaWind", title: "DXB Airport", description: "15 minutes drive" },
+    ],
+  },
+
+  keyFeatures: null,
+
+  propertyTypes: {
+    title: "Residential Options in Mina Rashid",
+    subtitle:
+      "Mina Rashid offers a selection of modern waterfront apartments designed to suit a variety of lifestyle needs. Residential options include apartments with direct marina views, residences overlooking landscaped internal parks, and homes located near the central pool and retail promenade. Apartments in Mina Rashid feature contemporary layouts, open-plan interiors, and access to community amenities. Buyers interested in residential opportunities can explore a range of apartments for sale in Mina Rashid, suitable for both end-users and long-term investors seeking waterfront properties in Port Rashid Dubai.",
+    badgeText: "Mina Rashid",
+    types: [
+      {
+        name: "1-Bedroom Apartments",
+        tag: "Ideal for professionals & waterfront enthusiasts",
+        perks: [
+          "Modern layouts with marina or sea views",
+          "Floor-to-ceiling windows capturing waterfront panoramas",
+          "Premium finishes by Emaar Properties",
+          "Strong rental potential for waterfront living",
+        ],
+        image: "/mina-rashid/7.webp",
+      },
+      {
+        name: "2-Bedroom Apartments",
+        tag: "Perfect for couples & small families",
+        perks: [
+          "Spacious living areas with water views",
+          "Private balconies overlooking marina or community parks",
+          "En-suite master bedrooms with walk-in closets",
+          "Direct access to waterfront amenities",
+        ],
+        image: "/mina-rashid/9.webp",
+      },
+      {
+        name: "3-Bedroom Apartments",
+        tag: "Luxury waterfront living with ample space",
+        perks: [
+          "Corner units with panoramic sea views",
+          "Multiple balconies for indoor-outdoor living",
+          "Premium fixtures and modern kitchen designs",
+          "Ideal for families seeking marina lifestyle",
+        ],
+        image: "/mina-rashid/10.webp",
+      },
+      {
+        name: "Penthouses",
+        tag: "Exclusive top-floor residences",
+        perks: [
+          "Expansive terraces with private pools",
+          "360-degree views of marina and Dubai skyline",
+          "Premium luxury finishes throughout",
+          "Private elevator access",
+        ],
+        image: "/mina-rashid/16.jpg",
+      },
+    ],
+  },
+
+  masterPlan: {
+    title: "Master Development at Mina Rashid",
+    subtitle:
+      "The Mina Rashid master development represents a large-scale transformation of Dubai\u2019s historic port area into a modern residential and lifestyle destination. Rather than focusing on a single building, the development integrates residential communities, marina facilities, hospitality offerings, retail outlets, and public waterfront spaces into one cohesive master plan.",
+    items: [
+      { icon: "FaBuilding", title: "Residential Buildings", description: "Residential mid-rise buildings with marina or sea views" },
+      { icon: "FaShip", title: "Hotels & Hospitality", description: "Hotels and boutique hotels along the waterfront" },
+      { icon: "FaWater", title: "Central Canal Pool", description: "A large central canal-style pool and boardwalk" },
+      { icon: "FaAnchor", title: "Cruise Terminals", description: "Cruise terminals and yacht berths" },
+      { icon: "FaStar", title: "Retail Promenade", description: "Retail, caf\u00e9s, and restaurants along the promenade" },
+      { icon: "FaLeaf", title: "Landscaped Parks", description: "Multiple landscaped parks and open spaces" },
+    ],
+  },
+
+  subCommunities: {
+    title: "Sub-Communities & Current Projects",
+    subtitle:
+      "Within the wider Mina Rashid project, different clusters are launched as separate off-plan phases. These are typically mid-rise apartment buildings with distinct characteristics.",
+    items: [
+      {
+        name: "Sirdhana",
+        description:
+          "Sirdhana is a premium waterfront residential project in Mina Rashid, offering modern apartments, marina views, and high-end amenities.",
+        image: "/mina-rashid/1.webp",
+      },
+      {
+        name: "Seascape",
+        description:
+          "Seascape is a contemporary off-plan project featuring luxury apartments, private beach access, and a vibrant waterfront lifestyle.",
+        image: "/mina-rashid/2.webp",
+      },
+      {
+        name: "Seashore",
+        description:
+          "Seashore is a beachfront residential project known for direct promenade access, resort-style amenities, and panoramic sea views.",
+        image: "/mina-rashid/3.webp",
+      },
+      {
+        name: "Cape Hayat",
+        description:
+          "Cape Hayat is an elegant waterfront sub-community offering peaceful living, stylish apartments, and premium facilities.",
+        image: "/mina-rashid/4.webp",
+      },
+      {
+        name: "Ocean Cove",
+        description:
+          "Ocean Cove is a modern off-plan residential project in Mina Rashid, offering spacious layouts, community views, and strong investment potential.",
+        image: "/mina-rashid/Ocean_Cove.webp",
+      },
+      {
+        name: "Marina Place",
+        description:
+          "Marina Place is an exclusive marina-facing residential project offering a yachting lifestyle, luxury apartments, and proximity to world-class amenities.",
+        image: "/mina-rashid/6.webp",
+      },
+    ],
+  },
+
+  clusters: null,
+
+  amenities: {
+    title: "Amenities Within the Community",
+    subtitle:
+      "Mina Rashid is planned with a wide mix of amenities that support both residents and visitors. All of this makes Emaar Mina Rashid more than just a group of buildings \u2013 it becomes a full waterfront lifestyle destination.",
+    items: [
+      {
+        title: "Swimming Pools",
+        description: "Multiple pools including family pools and children\u2019s play areas",
+        image: "/mina-rashid/3.webp",
+      },
+      {
+        title: "Fitness Centers",
+        description: "State-of-the-art gyms and wellness facilities for residents",
+        image: "/mina-rashid/13.webp",
+      },
+      {
+        title: "Landscaped Parks",
+        description: "Green spaces with seating, play areas, and open lawns",
+        image: "/mina-rashid/14.webp",
+      },
+      {
+        title: "Retail & Dining",
+        description: "Marina-front restaurants, caf\u00e9s, and retail outlets",
+        image: "/mina-rashid/hero.webp",
+      },
+      {
+        title: "Cycling Paths",
+        description: "Dedicated jogging and cycling tracks around waterfront",
+        image: "/mina-rashid/15.jpg",
+      },
+      {
+        title: "Hotels",
+        description: "Boutique hotels and hospitality options within community",
+        image: "/mina-rashid/16.webp",
+      },
+    ],
+  },
+
+  whyChoose: {
+    title: "Why Choose Mina Rashid by Emaar",
+    subtitle:
+      "Mina Rashid by Emaar stands out among Dubai\u2019s waterfront communities for several key reasons:",
+    points: [
+      "Prime waterfront location in Port Rashid Dubai",
+      "Marina-focused lifestyle at Mina Rashid Marina",
+      "Central connectivity near Old Dubai and Bur Dubai",
+      "Limited supply of marina communities in Dubai",
+      "Strong long-term investment and lifestyle potential",
+      "Backed by the trusted Emaar Mina Rashid development vision",
+    ],
+  },
+
+  investmentBenefits: {
+    title: "Investment Potential & Off-Plan Structure",
+    subtitle:
+      "From an investment point of view, Emaar Mina Rashid combines several strong points",
+    benefits: [
+      {
+        icon: "FaChartLine",
+        title: "Waterfront Appreciation",
+        description:
+          "Prime waterfront location ensures strong capital growth potential for Mina Rashid project",
+      },
+      {
+        icon: "FaBuilding",
+        title: "Emaar Brand Value",
+        description:
+          "Developed by Emaar Mina Rashid, Dubai\u2019s most trusted real estate developer",
+      },
+      {
+        icon: "FaCalendar",
+        title: "Off-Plan Opportunities",
+        description:
+          "Structured payment plans with 80/20 options available for buy in Mina Rashid",
+      },
+      {
+        icon: "FaUsers",
+        title: "High Rental Demand",
+        description:
+          "Strong demand for waterfront properties near city center in Mina Rashid",
+      },
+      {
+        icon: "FaAnchor",
+        title: "Heritage Location",
+        description:
+          "Historic Port Rashid area with unique character for Mina Rashid Emaar",
+      },
+      {
+        icon: "FaHandHoldingUsd",
+        title: "Freehold Property",
+        description: "Eligible for freehold ownership with Golden Visa potential",
+      },
+    ],
+  },
+
+  gallery: {
+    title: "Lifestyle Gallery",
+    description: "Experience the Mina Rashid by Emaar through our visual journey",
+    images: [
+      { src: "/mina-rashid/1.webp", alt: "Mina Rashid waterfront apartments with marina views" },
+      { src: "/mina-rashid/2.webp", alt: "Modern apartment interiors at Mina Rashid" },
+      { src: "/mina-rashid/3.webp", alt: "Marina lifestyle at Mina Rashid by Emaar" },
+      { src: "/mina-rashid/4.webp", alt: "Waterfront promenade and amenities" },
+      { src: "/mina-rashid/5.webp", alt: "Community pools and recreational facilities" },
+      { src: "/mina-rashid/6.webp", alt: "Historic Port Rashid transformation" },
+      { src: "/mina-rashid/7.webp", alt: "Waterfront views from Mina Rashid" },
+      { src: "/mina-rashid/8.webp", alt: "Exclusive penthouses with panoramic views" },
+      { src: "/mina-rashid/9.webp", alt: "Luxury waterfront living with ample space" },
+      { src: "/mina-rashid/10.webp", alt: "Marina-front residential buildings" },
+      { src: "/mina-rashid/11.webp", alt: "Residential towers and marina views" },
+      { src: "/mina-rashid/12.webp", alt: "Waterfront promenade and marina lifestyle" },
+    ],
+  },
+
+  faq: {
+    heading: "Frequently Asked Questions",
+    description: "Everything you need to know about Mina Rashid",
+    faqs: [
+      {
+        q: "Where is Mina Rashid located?",
+        a: "Mina Rashid is near Port Rashid on Dubai\u2019s coastline. It lies between Old Dubai (Bur Dubai / Deira side) and the main city. It has easy access to major roads and Dubai International Airport.",
+      },
+      {
+        q: "What types of properties are available in Mina Rashid?",
+        a: "Primarily 1\u20133 bedroom apartments in mid-rise buildings, with some larger units and penthouses depending on the phase.",
+      },
+      {
+        q: "Is Mina Rashid freehold?",
+        a: "Yes, eligible buyers can buy Mina Rashid Emaar residential buildings as freehold property. These buildings are part of a larger master community.",
+      },
+      {
+        q: "Is Mina Rashid ready or still under construction?",
+        a: "Mina Rashid is a multi-phase development. Some buildings are complete and handed over, while others are under construction or newly launched as off plan projects.",
+      },
+      {
+        q: "Who is Mina Rashid suitable for?",
+        a: "It suits end-users who want a quieter marina lifestyle near the city. It also suits investors who want branded waterfront off-plan opportunities in a growing port-side district.",
+      },
+    ],
+  },
+
+  cta: {
+    sectionLabel: "YOUR WATERFRONT OPPORTUNITY",
+    title: "Ready to Buy in Mina Rashid?",
+    description:
+      "Join the exclusive community transforming Dubai\u2019s historic Port Rashid into a premium waterfront destination. Explore off-plan opportunities and secure your place in Mina Rashid today.",
+    ctaText: "Request Exclusive Property Details",
+    footnote:
+      "Limited waterfront availability at Mina Rashid \u2022 Heritage location benefits \u2022 Flexible 80/20 payment plans available",
+  },
+
+  footer: {
+    brandName: "MINA RASHID",
+    tagline:
+      "Transforming Dubai\u2019s historic Port Rashid into a premium waterfront community by Emaar Properties.",
+  },
+
+  form: {
+    title: "Mina Rashid Inquiry",
+    subtitle: "Get details about properties in Mina Rashid",
+    sourceLabel: "Mina Rashid Landing Page",
+  },
+
+  meta: {
+    title: "Mina Rashid Community Dubai | Waterfront Living Guide | H&S",
+    description:
+      "Mina Rashid community guide — marina lifestyle, restaurants, transport & real estate in Dubai's newest waterfront district by Emaar. Explore with H&S.",
+    keywords:
+      "mina rashid marina, mina rashid, mina rashid emaar, mina rashid screening center, mina rashid testing center, emaar mina rashid, buy in mina rashid, mina rashid project, waterfront apartments dubai, marina properties dubai, port rashid development, emaar waterfront community",
+    url: "https://hsproperty.ae/communities/mina-rashid-by-emaar",
+    ogImage: "https://hsproperty.ae/mina_rashid/og-image.jpg",
+    schemas: {
+      place: {
+        "@context": "https://schema.org",
+        "@type": "Place",
+        name: "Mina Rashid By Emaar, Dubai",
+        url: "https://hsproperty.ae/communities/mina-rashid-by-emaar",
+        description:
+          "Mina Rashid By Emaar is a premier residential community in Dubai. Explore off-plan and ready properties with H&S Real Estate.",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Dubai",
+          addressRegion: "Dubai",
+          addressCountry: "AE",
+        },
+        containedInPlace: {
+          "@type": "City",
+          name: "Dubai",
+          containedInPlace: {
+            "@type": "Country",
+            name: "United Arab Emirates",
+          },
+        },
+        potentialAction: {
+          "@type": "ViewAction",
+          name: "View Properties in Mina Rashid By Emaar",
+          target: "https://hsproperty.ae/communities/mina-rashid-by-emaar",
+        },
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            { "@type": "ListItem", position: 1, name: "Home", item: "https://hsproperty.ae" },
+            { "@type": "ListItem", position: 2, name: "Communities", item: "https://hsproperty.ae/communities" },
+            {
+              "@type": "ListItem",
+              position: 3,
+              name: "Mina Rashid By Emaar",
+              item: "https://hsproperty.ae/communities/mina-rashid-by-emaar",
+            },
+          ],
+        },
+      },
+      product: {
+        "@context": "https://schema.org",
+        "@type": "ResidentialComplex",
+        name: "Mina Rashid by Emaar Properties",
+        description:
+          "Luxury waterfront community at historic Port Rashid featuring modern apartments, full-service marina, and comprehensive amenities in Dubai.",
+        url: "https://hsproperty.ae/communities/mina-rashid-by-emaar",
+        image: "https://hsproperty.ae/mina_rashid/schema-image.jpg",
+        address: {
+          "@type": "PostalAddress",
+          addressLocality: "Port Rashid",
+          addressRegion: "Dubai",
+          addressCountry: "AE",
+        },
+        developer: {
+          "@type": "Organization",
+          name: "Emaar Properties",
+          url: "https://www.emaar.com",
+        },
+        numberOfBedrooms: "1, 2, 3",
+        priceRange: "AED 1,000,000+",
+        amenityFeature: [
+          "Full-Service Marina",
+          "Yacht Berths",
+          "Canal-Style Swimming Pool",
+          "Waterfront Promenade",
+          "Cruise Terminal Access",
+          "Fitness Centers",
+          "Landscaped Parks",
+          "Children\u2019s Play Areas",
+          "Retail & Dining",
+          "Hotels",
+          "Cycling Paths",
+          "24/7 Security",
+        ],
+        openingHours: "Mo-Su 09:00-19:00",
+        telephone: "+971-04-345-4888",
+        hasMap: "https://goo.gl/maps/example",
+      },
+      faq: {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: [
+          {
+            "@type": "Question",
+            name: "Where is Mina Rashid located?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mina Rashid is located near Port Rashid on Dubai\u2019s coastline, between Old Dubai and modern business districts, offering easy access to major roads and Dubai International Airport.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What types of properties are available in Mina Rashid?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mina Rashid primarily offers 1-3 bedroom luxury apartments in mid-rise buildings, with some penthouses and larger units featuring marina or sea views.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Is Mina Rashid freehold?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Yes, eligible buyers can buy Mina Rashid Emaar residential buildings as freehold property. These buildings are part of a larger master community.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Is Mina Rashid ready or still under construction?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mina Rashid is a multi-phase development. Some buildings are complete and handed over, while others are under construction or newly launched as off plan projects.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Who is Mina Rashid suitable for?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "It suits end-users who want a quieter marina lifestyle near the city. It also suits investors who want branded waterfront off-plan opportunities in a growing port-side district.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "What waterfront amenities are available at Mina Rashid?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mina Rashid features a full-service marina with yacht berths, canal-style swimming pools, waterfront promenade, cruise terminal access, and comprehensive leisure facilities.",
+            },
+          },
+          {
+            "@type": "Question",
+            name: "Who is the developer of Mina Rashid?",
+            acceptedAnswer: {
+              "@type": "Answer",
+              text: "Mina Rashid is developed by Emaar Properties, one of Dubai\u2019s leading and most trusted real estate developers known for quality master-planned communities.",
+            },
+          },
+        ],
+      },
+    },
+  },
+
+  thankyou: {
+    communityName: "Mina Rashid",
+    description:
+      "Your Mina Rashid inquiry has been received. Our waterfront specialists will contact you within 24 hours with exclusive property details.",
+    returnLabel: "Back to Mina Rashid",
+  },
+};

@@ -1,0 +1,274 @@
+﻿
+> hs-property-ae@0.1.0 build
+> next build
+
+  Γû▓ Next.js 14.2.35
+  - Environments: .env.local
+
+   Creating an optimized production build ...
+ Γ£ô Compiled successfully
+   Linting and checking validity of types ...
+
+./app/binghatti/Binghatti.js
+277:6  Warning: React Hook useEffect has missing dependencies: 'nextImage' and 'prevImage'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/bnw_developments/BnwDeveleopments.js
+291:6  Warning: React Hook useEffect has missing dependencies: 'nextImage' and 'prevImage'. Either include them or remove the dependency array.  react-hooks/exhaustive-deps
+
+./app/china-lps/page.js
+218:13  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/layout.js
+69:9  Warning: `rel="preconnect"` is missing from Google Font. See: https://nextjs.org/docs/messages/google-font-preconnect  @next/next/google-font-preconnect
+154:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./app/palm-jebel-ali/PalmJebelAliClient.js
+316:19  Warning: React Hook useMemo does nothing when called with only one argument. Did you forget to pass an array of dependencies?  react-hooks/exhaustive-deps
+
+./components/MetaPixel.js
+32:9  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/pages/HnsDpsPage.js
+233:15  Warning: Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+./components/pages/PropertiesListingPage.js
+649:6  Warning: React Hook useEffect has a missing dependency: 'fetchListings'. Either include it or remove the dependency array.  react-hooks/exhaustive-deps
+672:6  Warning: React Hook useEffect has missing dependencies: 'bedrooms', 'location', 'optionsMap', 'priceMax', 'priceMin', 'propertyType', 'purpose', and 'subOption'. Either include them or remove the dependency array. If 'setFormData' needs the current value of 'purpose', you can also switch to useReducer instead of useState and read 'purpose' in the reducer.  react-hooks/exhaustive-deps
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/basic-features/eslint#disabling-rules
+   Collecting page data ...
+node.exe :  ΓÜá fetch for https://cms.hsproperty.ae/api/area-guides/emirates on 
+/area-guides/[emirateSlug]/[areaSlug] specified "cache: force-cache" and "revalidate: 120", 
+only one should be specified.
+At line:1 char:1
++ & "C:\Program Files\nodejs/node.exe" "C:\Program Files\nodejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ( ΓÜá fetch for ...d be specified.:String) [], RemoteEx 
+   ception
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+ ΓÜá fetch for https://cms.hsproperty.ae/api/area-guides/emirates on /area-guides/[emirateSlug] 
+specified "cache: force-cache" and "revalidate: 120", only one should be specified.
+Error fetching emirates list: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async m (E:\hs-property-ae-main\.next\server\chunks\8318.js:1:9731)
+    at async Object.o [as generateStaticParams] 
+(E:\hs-property-ae-main\.next\server\app\area-guides\[emirateSlug]\[areaSlug]\page.js:1:8141)
+    at async buildParams (E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1026:40)
+    at async E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1043:33
+    at async E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1178:114
+    at async Span.traceAsyncFn 
+(E:\hs-property-ae-main\node_modules\next\dist\trace\trace.js:154:20) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+Error fetching emirates list: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async m (E:\hs-property-ae-main\.next\server\chunks\8318.js:1:9731)
+    at async Object.u [as generateStaticParams] 
+(E:\hs-property-ae-main\.next\server\app\area-guides\[emirateSlug]\page.js:1:6642)
+    at async buildParams (E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1026:40)
+    at async E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1043:33
+    at async E:\hs-property-ae-main\node_modules\next\dist\build\utils.js:1178:114
+    at async Span.traceAsyncFn 
+(E:\hs-property-ae-main\node_modules\next\dist\trace\trace.js:154:20) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+   Generating static pages (0/96) ...
+ ΓÜá fetch for https://cms.hsproperty.ae/api/area-guides/emirates on /api/area-guides/emirates 
+specified "cache: force-cache" and "revalidate: 120", only one should be specified.
+Error fetching emirates list: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async h 
+(E:\hs-property-ae-main\.next\server\app\api\area-guides\emirates\route.js:1:1715)
+    at async c (E:\hs-property-ae-main\.next\server\app\api\area-guides\emirates\route.js:1:521)
+    at async 
+E:\hs-property-ae-main\node_modules\next\dist\compiled\next-server\app-route.runtime.prod.js:6:38411
+    at async e_.execute (E:\hs-property-ae-main\node_modules\next\dist\compiled\next-server\app-rout
+e.runtime.prod.js:6:27880)
+    at async e_.handle (E:\hs-property-ae-main\node_modules\next\dist\compiled\next-server\app-route
+.runtime.prod.js:6:39943)
+    at async exportAppRoute 
+(E:\hs-property-ae-main\node_modules\next\dist\export\routes\app-route.js:77:26)
+    at async exportPageImpl (E:\hs-property-ae-main\node_modules\next\dist\export\worker.js:175:20)
+    at async Span.traceAsyncFn 
+(E:\hs-property-ae-main\node_modules\next\dist\trace\trace.js:154:20) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+   Generating static pages (24/96) 
+ ΓÜá fetch for https://cms.hsproperty.ae/api/area-guides/emirates on /area-guides specified "cache: 
+force-cache" and "revalidate: 120", only one should be specified.
+ ΓÜá fetch for https://cms.hsproperty.ae/api/area-guides/emirates on /area-guides specified "cache: 
+force-cache" and "revalidate: 120", only one should be specified.
+ ΓÜá fetch for https://cms.hsproperty.ae/api/blogs/org/1/list on /blogs specified "cache: 
+force-cache" and "revalidate: 120", only one should be specified.
+ ΓÜá fetch for https://cms.hsproperty.ae/api/blogs/org/1/list on /blogs specified "cache: 
+force-cache" and "revalidate: 120", only one should be specified.
+Error fetching emirates list: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async m (E:\hs-property-ae-main\.next\server\chunks\8318.js:1:9731)
+    at async n (E:\hs-property-ae-main\.next\server\app\area-guides\page.js:1:5838)
+    at async u (E:\hs-property-ae-main\.next\server\app\area-guides\page.js:1:6147) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+Error fetching emirates list: TypeError: fetch failed
+    at node:internal/deps/undici/undici:15845:13
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async m (E:\hs-property-ae-main\.next\server\chunks\8318.js:1:9731)
+    at async n (E:\hs-property-ae-main\.next\server\app\area-guides\page.js:1:5838)
+    at async u (E:\hs-property-ae-main\.next\server\app\area-guides\page.js:1:6147) {
+  [cause]: AggregateError [ECONNREFUSED]: 
+      at internalConnectMultiple (node:net:1134:18)
+      at afterConnectMultiple (node:net:1715:7) {
+    code: 'ECONNREFUSED',
+    [errors]: [ [Error], [Error] ]
+  }
+}
+   Generating static pages (48/96) 
+   Generating static pages (72/96) 
+ Γ£ô Generating static pages (96/96)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                            Size     First Load JS
+Γöî Γùï /                                                  17.4 kB         348 kB
+Γö£ Γùï /_not-found                                        880 B          88.9 kB
+Γö£ ╞Æ /api/area-guides/[areaSlug]                    0 B                0 B
+Γö£ ╞Æ /api/area-guides/emirates                      0 B                0 B
+Γö£ ╞Æ /api/area-guides/emirates/[emirateSlug]/areas  0 B                0 B
+Γö£ ╞Æ /api/blogs                                         0 B                0 B
+Γö£ Γùï /api/instagram                                     0 B                0 B
+Γö£ Γùï /api/instagram-german                              0 B                0 B
+Γö£ ╞Æ /api/mortage-approval                              0 B                0 B
+Γö£ Γùï /api/off-plan-properties                           0 B                0 B
+Γö£ ╞Æ /api/off-plan-properties/[slug]                    0 B                0 B
+Γö£ ╞Æ /api/send-avana-residences-submissions             0 B                0 B
+Γö£ ╞Æ /api/send-binghatti-submissions                    0 B                0 B
+Γö£ ╞Æ /api/send-bnw-submissions                          0 B                0 B
+Γö£ ╞Æ /api/send-china-lps-submission                     0 B                0 B
+Γö£ ╞Æ /api/send-damac-island-submissions                 0 B                0 B
+Γö£ ╞Æ /api/send-dubai-creek-harbour-submissions          0 B                0 B
+Γö£ ╞Æ /api/send-dubai-hills-estate-submissions           0 B                0 B
+Γö£ ╞Æ /api/send-eltiera-views-submissions                0 B                0 B
+Γö£ ╞Æ /api/send-farm-gardens-submissions                 0 B                0 B
+Γö£ ╞Æ /api/send-german-submission-contact                0 B                0 B
+Γö£ ╞Æ /api/send-german-submission-shorter-contact        0 B                0 B
+Γö£ ╞Æ /api/send-grand-polo-club-submissions              0 B                0 B
+Γö£ ╞Æ /api/send-maritime-city-submissions                0 B                0 B
+Γö£ ╞Æ /api/send-mina-rashid-contact                      0 B                0 B
+Γö£ ╞Æ /api/send-montiva-vida-submissions                 0 B                0 B
+Γö£ ╞Æ /api/send-oasis-submissions                        0 B                0 B
+Γö£ ╞Æ /api/send-ohana-yas-canal-submissions              0 B                0 B
+Γö£ ╞Æ /api/send-palm-jebel-ali-contact                   0 B                0 B
+Γö£ ╞Æ /api/send-rashid-yachts-marina-submissions         0 B                0 B
+Γö£ ╞Æ /api/send-shahrukhz-submissions                    0 B                0 B
+Γö£ ╞Æ /api/send-submission-book-viewing                  0 B                0 B
+Γö£ ╞Æ /api/send-submission-contact                       0 B                0 B
+Γö£ ╞Æ /api/send-submission-hs-german-popup               0 B                0 B
+Γö£ ╞Æ /api/send-submission-property-valuation            0 B                0 B
+Γö£ ╞Æ /api/send-submission-subscribe-newsletter          0 B                0 B
+Γö£ ╞Æ /api/send-the-valley-contact                       0 B                0 B
+Γö£ Γùï /area-guides                                       3.33 kB         150 kB
+Γö£ Γùï /area-guides                                   3.48 kB         150 kB
+Γö£ ΓùÅ /area-guides/[emirateSlug]                     3.62 kB         150 kB
+Γö£ ΓùÅ /area-guides/[emirateSlug]/[areaSlug]          2 kB            315 kB
+Γö£ ╞Æ /area-guides/[areaGuideId]                         4.04 kB         151 kB
+Γö£ ╞Æ /area-guides/[areaGuideId]/[areaId]                33.5 kB         346 kB
+Γö£ Γùï /avana-residences                                  14 kB           289 kB
+Γö£ Γùï /avana-residences/thankyou                         967 B           100 kB
+Γö£ Γùï /binghatti                                         9.2 kB          242 kB
+Γö£ Γùï /blogs                                             1.65 kB         151 kB
+Γö£ ╞Æ /blogs/[blogId]                                    1.76 kB         158 kB
+Γö£ Γùï /bnw_developments                                  7.54 kB         237 kB
+Γö£ Γùï /careers                                           4.58 kB         181 kB
+Γö£ Γùï /china-lps                                         1.94 kB          90 kB
+Γö£ Γùï /client-reviews                                    7.78 kB         157 kB
+Γö£ Γùï /communities                                       12 kB           702 kB
+Γö£ Γùï /contact                                           3.08 kB         695 kB
+Γö£ Γùï /damac_island_2                                    15.9 kB         280 kB
+Γö£ Γùï /damac_island_2/thankyou                           967 B           100 kB
+Γö£ Γùï /dubai-creek-harbour                               15.7 kB         273 kB
+Γö£ Γùï /dubai-creek-harbour/thankyou                      967 B           100 kB
+Γö£ Γùï /dubai-hills-estate                                16.7 kB         236 kB
+Γö£ Γùï /dubai-hills-estate/thankyou                       967 B           100 kB
+Γö£ Γùï /dubai-meritime-city                               15.5 kB         285 kB
+Γö£ Γùï /dubai-meritime-city/thankyou                      967 B           100 kB
+Γö£ Γùï /eltiera_views                                     14.3 kB         278 kB
+Γö£ Γùï /eltiera_views/thankyou                            967 B           100 kB
+Γö£ Γùï /expo                                              1.97 kB         269 kB
+Γö£ Γùï /farm-garden-valley                                14.4 kB         278 kB
+Γö£ Γùï /farm-garden-valley/thankyou                       967 B           100 kB
+Γö£ Γùï /german                                            76.7 kB         334 kB
+Γö£ Γùï /german/about-us                                   3.76 kB         250 kB
+Γö£ Γùï /german/why-dubai                                  3.18 kB         249 kB
+Γö£ Γùï /german/why-hs                                     2.89 kB         249 kB
+Γö£ Γùï /germanads                                         2.78 kB         225 kB
+Γö£ Γùï /germankontakt                                     3.14 kB         225 kB
+Γö£ Γùï /grand-polo-club                                   14.8 kB         278 kB
+Γö£ Γùï /grand-polo-club/thankyou                          967 B           100 kB
+Γö£ Γùï /hns-dps                                           6.42 kB         183 kB
+Γö£ Γùï /landing_page                                      9.64 kB         131 kB
+Γö£ Γùï /market-insights                                   3.67 kB         150 kB
+Γö£ ╞Æ /market-insights/[marketInsightId]                 14.8 kB         929 kB
+Γö£ Γùï /mina-rashid-by-emaar                              19.9 kB         289 kB
+Γö£ Γùï /mina-rashid-by-emaar/thankyou                     967 B           100 kB
+Γö£ Γùï /montiva_by_vida                                   14.2 kB         278 kB
+Γö£ Γùï /montiva_by_vida/thankyou                          967 B           100 kB
+Γö£ Γùï /mortgages                                         9.77 kB         438 kB
+Γö£ Γùï /news                                              2.66 kB         186 kB
+Γö£ ╞Æ /news/[newsId]                                     2.16 kB         167 kB
+Γö£ Γùï /ohana-yas-canal                                   16.3 kB         278 kB
+Γö£ Γùï /our-story                                         5.58 kB         170 kB
+Γö£ Γùï /palm-jebel-ali                                    25 kB           315 kB
+Γö£ Γùï /palm-jebel-ali/thankyou                           967 B           100 kB
+Γö£ Γùï /privacy-policy                                    261 B           137 kB
+Γö£ ╞Æ /properties/[purpose]                              21.6 kB         880 kB
+Γö£ ╞Æ /properties/[purpose]/[propertyId]                 250 B           914 kB
+Γö£ Γùï /property-valuation                                7.71 kB         252 kB
+Γö£ Γùï /rashid_yachts_marina                              13.8 kB         283 kB
+Γö£ Γùï /rashid_yachts_marina/thankyou                     967 B           100 kB
+Γö£ Γùï /real-estate-brokers-in-dubai                      7.2 kB          156 kB
+Γö£ Γùï /services                                          6.97 kB         154 kB
+Γö£ Γùï /shahrukhz_by_danube                               17 kB           281 kB
+Γö£ Γùï /shahrukhz_by_danube/thankyou                      967 B           100 kB
+Γö£ Γùï /studio/[[...tool]]                                148 B          88.2 kB
+Γö£ Γùï /terms-and-conditions                              272 B           137 kB
+Γö£ Γùï /the-oasis                                         15.3 kB         284 kB
+Γö£ Γùï /the-oasis/thankyou                                967 B           100 kB
+Γö£ Γùï /the-valley                                        15.3 kB         188 kB
+Γö£ Γùï /the-valley/thankyou                               967 B           100 kB
+Γöö Γùï /why-choose-hs-real-estate                         2.62 kB         149 kB
++ First Load JS shared by all                          88 kB
+  Γö£ chunks/2117-78a6343cb48373d2.js                    31.9 kB
+  Γö£ chunks/fd9d1056-e15ede1b72a350b4.js                53.6 kB
+  Γöö other shared chunks (total)                        2.49 kB
+
+
+Γùï  (Static)   prerendered as static content
+ΓùÅ  (SSG)      prerendered as static HTML (uses getStaticProps)
+╞Æ  (Dynamic)  server-rendered on demand
+
+
