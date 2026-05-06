@@ -1,5 +1,6 @@
 import { revalidatePath, revalidateTag } from "next/cache";
 import { NextResponse } from "next/server";
+import { clearPropertiesCache } from "@/lib/fetchPropertiesData";
 
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
@@ -65,6 +66,25 @@ export async function POST(request) {
 
     for (const tag of tagsToRevalidate) {
       revalidateTag(tag);
+    }
+
+    // Revalidate paths and clear in-memory caches for property-related tags
+    for (const tag of tagsToRevalidate) {
+      if (tag === "properties") {
+        clearPropertiesCache();
+        revalidatePath("/properties/for-sale");
+        revalidatePath("/properties/for-rent");
+      } else if (tag === "properties:purpose:for-sale") {
+        clearPropertiesCache("for-sale");
+        revalidatePath("/properties/for-sale");
+      } else if (tag === "properties:purpose:for-rent") {
+        clearPropertiesCache("for-rent");
+        revalidatePath("/properties/for-rent");
+      } else if (tag.startsWith("properties:detail:")) {
+        const slug = tag.slice("properties:detail:".length);
+        revalidatePath(`/properties/for-sale/${slug}`);
+        revalidatePath(`/properties/for-rent/${slug}`);
+      }
     }
 
     for (const path of paths) {

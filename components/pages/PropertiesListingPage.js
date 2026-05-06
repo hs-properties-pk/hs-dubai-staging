@@ -1293,6 +1293,7 @@ const PropertiesListingPage = ({ purpose, offPlanCategorySlug = null, cmsData = 
     fetchListings(page);
   }, [
     page,
+    cmsData,
     formData.sortBy,
     formData.propertyType,
     formData.subOption,

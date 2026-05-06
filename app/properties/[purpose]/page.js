@@ -6,7 +6,8 @@ import { buildForSalePropertiesListingJsonLd } from "@/lib/jsonld/forSalePropert
 import { buildForRentPropertiesListingJsonLd } from "@/lib/jsonld/forRentPropertiesListingPage";
 import { getPropertiesByPurpose } from "@/lib/fetchPropertiesData";
 
-export const dynamic = "force-dynamic";
+// Use ISR: cache pages and revalidate via tags from the CMS webhook
+export const revalidate = 3600;
 
 const ALLOWED_PURPOSES = ["for-sale", "for-rent", "off-plan"];
 

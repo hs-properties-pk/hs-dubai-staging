@@ -6,7 +6,8 @@ import { getBayutPropertyDataForPage } from "@/lib/bayutCached";
 import { isOffPlanTypeListSlug, getOffPlanTypeListingMetadata } from "@/lib/offPlanTypeRoutes";
 import { getPropertyBySlug } from "@/lib/fetchPropertiesData";
 
-export const dynamic = "force-dynamic";
+// Use ISR: cache pages and revalidate via tags from the CMS webhook
+export const revalidate = 3600;
 
 const offPlanMetaData = [
   {
