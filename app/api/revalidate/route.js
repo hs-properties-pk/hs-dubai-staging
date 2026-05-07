@@ -84,6 +84,9 @@ export async function POST(request) {
         const slug = tag.slice("properties:detail:".length);
         revalidatePath(`/properties/for-sale/${slug}`);
         revalidatePath(`/properties/for-rent/${slug}`);
+        // Also revalidate listing pages so updated property appears in listings
+        revalidatePath("/properties/for-sale");
+        revalidatePath("/properties/for-rent");
       }
     }
 
